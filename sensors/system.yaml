@@ -2,3 +2,32 @@
     resources:
       - type: disk_use_percent
         arg: /
+      - type: disk_use_percent
+        arg: /data/TimeMachine/dfiore
+      - type: disk_use_percent
+        arg: /data/Temp
+      - type: disk_use_percent
+        arg: /data/VMs
+      - type: disk_use_percent
+        arg: /data/Media
+      - type: disk_use_percent
+        arg: /data/TimeMachine/lfiore
+      - type: memory_use_percent
+      - type: load_1m
+      - type: load_5m
+      - type: load_15m
+      - type: network_in
+        arg: docker0
+      - type: network_out
+        arg: docker0
+      - type: network_in
+        arg: hassio
+      - type: network_out
+        arg: hassio
+      - type: network_in
+        arg: p6p1
+      - type: network_out
+        arg: p6p1
+      - type: processor_use
+      - type: last_boot
+      - type: since_last_boot
