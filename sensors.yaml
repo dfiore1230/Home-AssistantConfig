@@ -1,4 +1,3 @@
-sensor:
   platform: sabnzbd
   name: SAB
   host: 172.16.42.180
