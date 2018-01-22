@@ -10,3 +10,4 @@
 8. Setup scenes
 9. iHome Outlet control
 10. GE Zwave switch control
+11. DONE -sabnzbd monitoring-
