@@ -1,0 +1,12 @@
+# Things to add to Hassio
+
+1. Notifications via Pushover
+2. Power on for MasterBedroom Samsung TV
+3. Hardwire Office tv and get it working + turn on
+4. Complete Wink Integration
+5. Add app control to braviarc_psk
+6. UI Setup
+7. Group rooms
+8. Setup scenes
+9. iHome Outlet control
+10. GE Zwave switch control

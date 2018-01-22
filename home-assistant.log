@@ -496,3 +496,4 @@ botocore.vendored.requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='1
 2018-01-22 09:16:46 INFO (MainThread) [homeassistant.components.discovery] Unknown service discovered: spotify_connect {'host': '172.16.42.115', 'port': 1400, 'hostname': 'sonos949F3ED8E77D.local.', 'properties': {'VERSION': '1.0', 'CPath': '/spotifyzc'}}
 2018-01-22 09:16:46 INFO (MainThread) [homeassistant.components.discovery] Unknown service discovered: spotify_connect {'host': '172.16.42.112', 'port': 1400, 'hostname': 'sonos5CAAFD94070E.local.', 'properties': {'VERSION': '1.0', 'CPath': '/spotifyzc'}}
 2018-01-22 09:16:46 INFO (MainThread) [homeassistant.components.discovery] Unknown service discovered: spotify_connect {'host': '172.16.42.126', 'port': 1400, 'hostname': 'sonos5CAAFD27DE9C.local.', 'properties': {'VERSION': '1.0', 'CPath': '/spotifyzc'}}
+2018-01-22 09:20:33 INFO (MainThread) [homeassistant.components.http] Serving /api/ to 172.30.32.2 (auth: True)
