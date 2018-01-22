@@ -1,5 +1,5 @@
   platform: systemmonitor
-    resources:
+    resources: 
       - type: disk_use_percent
         arg: /
       - type: disk_use_percent
