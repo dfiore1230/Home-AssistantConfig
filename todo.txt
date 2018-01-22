@@ -8,6 +8,7 @@
 6. UI Setup
 7. Group rooms
 8. Setup scenes
-9. iHome Outlet control
+9. iHome Outlet control (https://www.reddit.com/r/homeassistant/comments/5g5ln9/ihome_isp5/) // Doesnt look good for this
 10. GE Zwave switch control
 11. DONE -sabnzbd monitoring-
+12. HomeBridge SUPPORT
