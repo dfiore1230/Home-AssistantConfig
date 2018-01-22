@@ -12,6 +12,20 @@ frontend:
 # Enables configuration UI
 config:
 
+###############################################
+#
+# Load the iOS components
+#
+###############################################
+
+ios:
+
+###############################################
+#
+# Load the http components
+#
+###############################################
+
 http:
   api_password: !secret http_password
   base_url: https://dfiore.duckdns.org:8123
