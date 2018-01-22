@@ -1,6 +1,6 @@
 # Things to add to Hassio
 
-1. Notifications via Pushover
+1. DONE -Notifications on ios-
 2. Power on for MasterBedroom Samsung TV
 3. Hardwire Office tv and get it working + turn on
 4. Complete Wink Integration
