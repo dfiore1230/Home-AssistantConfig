@@ -1,8 +1,9 @@
 sensor:
   platform: sabnzbd
+  name: SAB
   host: 172.16.42.180
   port: 9090
-  api_key: 196710b4f483fe6e215c40d6c60a302b
+  api_key: '196710b4f483fe6e215c40d6c60a302b'
   monitored variables:
     - 'current_status'
     - 'speed'
