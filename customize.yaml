@@ -1,0 +1,10 @@
+media_player.bravia_4k_2015:
+  hidden: true
+media_player.family_roomcast:
+  hidden: true
+media_player.sony_bravia_tv:
+  friendly_name: Family Room TV
+media_player.un32eh5300_un32eh5300:
+  friendly_name: Master Bedroom TV
+media_player.office:
+  friendly_name: Office Roku
