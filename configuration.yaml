@@ -68,7 +68,7 @@ tts:
 # Static Includes
 automation: !include automations.yaml
 shell_command: !include shell_scripts.yaml
-sensor: !include sensor.yaml
+sensor: !include sensors.yaml
 
 # Merge Includes List
 script: !include_dir_merge_list scripts
