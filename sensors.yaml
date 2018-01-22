@@ -11,6 +11,7 @@
     - 'disk_size'
     - 'disk_free'
     - 'queu_content'
+
   platform: systemmonitor
   resources:
     - type: disk_use_percent
@@ -44,6 +45,7 @@
     - type: processor_use
     - type: last_boot
     - type: since_last_boot
+
   platform: speedtest
   monitored_conditions:
     - ping
