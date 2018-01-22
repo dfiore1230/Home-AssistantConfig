@@ -1,6 +1,5 @@
-  machine_info:
+  ubuntu_server_group:
     name: System Info
-    view: yes
     entities:
       - sensor.average_load_1m
       - sensor.average_load_5m
