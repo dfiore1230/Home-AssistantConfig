@@ -1,0 +1,18 @@
+  machine_info:
+    name: System Info
+    view: yes
+    entities:
+      - sensor.average_load_15m
+      - sensor.average_load_5m
+      - sensor.average_load_1m
+      - sensor.cpu_used
+      - sensor.disk_used_
+      - sensor.since_last_boot
+      - sensor.last_boot
+      - sensor.ram_used
+      - sensor.received_docker0
+      - sensor.received_hassio
+      - sensor.received_p6p1
+      - sensor.sent_docker0
+      - sensor.sent_hassio
+      - sensor.sent_p6p1
