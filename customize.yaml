@@ -6,3 +6,10 @@ media_player.sony_bravia_tv:
 media_player.un32eh5300_un32eh5300:
   friendly_name: Master Bedroom TV
 media_player.office: {}
+
+sensor.speedtest_download:
+  friendly_name: Download Rate
+sensor.speedtest_ping:
+  friendly_name: Last Ping
+sensor.speedtest_upload:
+  friendly_name: Upload Rate
