@@ -1,4 +1,3 @@
-sensor:
     platform: systemmonitor
     resources:
       - type: disk_use_percent
