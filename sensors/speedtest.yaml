@@ -1,4 +1,4 @@
-  - platform: speedtest
+    platform: speedtest
     minute:
       - 0
       - 15
