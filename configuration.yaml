@@ -24,6 +24,7 @@ discovery:
   ignore:
     - sonos
     - roku
+    - google_cast
 
 history:
 
