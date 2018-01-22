@@ -1,4 +1,4 @@
-  platform: sabnzbd
+- platform: sabnzbd
   name: SAB
   host: 172.16.42.180
   port: 9090
@@ -12,7 +12,7 @@
     - 'disk_free'
     - 'queu_content'
 
-  platform: systemmonitor
+- platform: systemmonitor
   resources:
     - type: disk_use_percent
       arg: /
@@ -46,7 +46,7 @@
     - type: last_boot
     - type: since_last_boot
 
-  platform: speedtest
+- platform: speedtest
   monitored_conditions:
     - ping
     - download
