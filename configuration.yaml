@@ -55,7 +55,7 @@ automation: !include automations.yaml
 shell_command: !include shell_scripts.yaml
 
 # Merge Includes List
-sensor: !include_dir_merge_list sensors
+script: !include_dir_merge_list scripts
 
 # Merge Includes Named
 group: !include_dir_merge_named groups
