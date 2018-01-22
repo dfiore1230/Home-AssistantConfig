@@ -1,8 +1,8 @@
 homeassistant:
   name: Fiore Household
-  latitude: !secret latitude #40.5083 
-  longitude: !secret longitude #-74.7297
-  elevation: 29 
+  latitude: !secret latitude
+  longitude: !secret longitude
+  elevation: !secret elevation
   unit_system: imperial
   time_zone: America/New_York
   customize: !include customize.yaml
