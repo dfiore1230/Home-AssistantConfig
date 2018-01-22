@@ -19,7 +19,7 @@
         arg: /
       - type: disk_use_percent
         arg: /data/TimeMachine/dfiore
-      - type: disk_use_percnt
+      - type: disk_use_perecnt
         arg: /data/Temp
       - type: disk_use_percent
         arg: /data/VMs
