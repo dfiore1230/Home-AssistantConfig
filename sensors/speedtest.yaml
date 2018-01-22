@@ -3,6 +3,7 @@
       - 0
       - 15
       - 30
+      - 41
       - 45
     monitored_conditions:
       - ping
