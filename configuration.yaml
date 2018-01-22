@@ -1,0 +1,64 @@
+homeassistant:
+  name: Fiore Household
+  latitude: !secret latitude #40.5083 
+  longitude: !secret longitude #-74.7297
+  elevation: 29 
+  unit_system: imperial
+  time_zone: America/New_York
+  customize: !include customize.yaml
+
+frontend:
+
+# Enables configuration UI
+config:
+
+http:
+  api_password: !secret http_password
+  base_url: https://dfiore.duckdns.org:8123
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+
+updater:
+
+discovery:
+  ignore:
+    - sonos
+    - roku
+
+history:
+
+logbook:
+
+logger:
+  #default: debug
+
+###############################################
+#
+# Integrations
+#
+###############################################
+
+wink:
+cloud:
+alexa:
+tts:
+  - platform: google
+
+###############################################
+#
+# Includes
+#
+###############################################
+
+# Static Includes
+automation: !include automations.yaml
+shell_command: !include shell_scripts.yaml
+
+# Merge Includes List
+sensor: !include_dir_merge_list sensors
+script: !include_dir_merge_list scripts
+
+# Merge Includes Named
+group: !include_dir_merge_named groups
+intent_script: !include_dir_merge_named intentscripts
+media_player: !include_dir_merge_named media_players

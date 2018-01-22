@@ -1,0 +1,434 @@
+2018-01-22 08:55:25 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=logger, service=set_level>
+2018-01-22 08:55:25 INFO (MainThread) [homeassistant.setup] Setup of domain logger took 0.0 seconds.
+2018-01-22 08:55:25 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=logger>
+2018-01-22 08:55:25 INFO (MainThread) [homeassistant.loader] Loaded history from homeassistant.components.history
+2018-01-22 08:55:25 INFO (MainThread) [homeassistant.loader] Loaded recorder from homeassistant.components.recorder
+2018-01-22 08:55:25 INFO (MainThread) [homeassistant.loader] Loaded http from homeassistant.components.http
+2018-01-22 08:55:25 INFO (MainThread) [homeassistant.loader] Loaded frontend from homeassistant.components.frontend
+2018-01-22 08:55:25 INFO (MainThread) [homeassistant.loader] Loaded api from homeassistant.components.api
+2018-01-22 08:55:25 INFO (MainThread) [homeassistant.loader] Loaded websocket_api from homeassistant.components.websocket_api
+2018-01-22 08:55:25 INFO (MainThread) [homeassistant.loader] Loaded system_log from homeassistant.components.system_log
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setting up http
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setup of domain http took 0.0 seconds.
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=http>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setting up websocket_api
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setup of domain websocket_api took 0.0 seconds.
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=websocket_api>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setting up api
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setting up system_log
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=system_log, service=clear>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setup of domain system_log took 0.0 seconds.
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=system_log>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setup of domain api took 0.0 seconds.
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=api>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setting up frontend
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setup of domain frontend took 0.0 seconds.
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=frontend>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setting up recorder
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=recorder, service=purge>
+2018-01-22 08:55:26 DEBUG (Recorder) [homeassistant.components.recorder] Connected to recorder database
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setup of domain recorder took 0.2 seconds.
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=recorder>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setting up history
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setup of domain history took 0.0 seconds.
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=history>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.loader] Loaded config from homeassistant.components.config
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.loader] Loaded wink from homeassistant.components.wink
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.loader] Loaded tts from homeassistant.components.tts
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.loader] Loaded tts.google from homeassistant.components.tts.google
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.loader] Loaded group from homeassistant.components.group
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setting up group
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=group, service=reload>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=group, service=set>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=group, service=remove>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=group, service=set_visibility>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setup of domain group took 0.0 seconds.
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=group>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.loader] Loaded logbook from homeassistant.components.logbook
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.loader] Loaded alexa from homeassistant.components.alexa
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.loader] Loaded shell_command from homeassistant.components.shell_command
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setting up shell_command
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=shell_command, service=openremote>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setup of domain shell_command took 0.0 seconds.
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=shell_command>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.loader] Loaded sensor from homeassistant.components.sensor
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setting up sensor
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.setup] Setup of domain sensor took 0.0 seconds.
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=sensor>
+2018-01-22 08:55:26 INFO (MainThread) [homeassistant.loader] Loaded script from homeassistant.components.script
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.loader] Loaded cloud from homeassistant.components.cloud
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.loader] Loaded media_player from homeassistant.components.media_player
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.loader] Loaded media_player.braviatv_psk from custom_components.media_player.braviatv_psk
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.loader] Loaded updater from homeassistant.components.updater
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.loader] Loaded discovery from homeassistant.components.discovery
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.loader] Loaded automation from homeassistant.components.automation
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.loader] Loaded intent_script from homeassistant.components.intent_script
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setting up intent_script
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setup of domain intent_script took 0.0 seconds.
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=intent_script>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setting up config
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setting up logbook
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setting up alexa
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setup of domain alexa took 0.0 seconds.
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=alexa>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setting up script
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=script, service=reload>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=script, service=turn_on>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=script, service=turn_off>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=script, service=toggle>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setup of domain script took 0.0 seconds.
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=script>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setting up media_player
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setting up automation
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=automation, service=trigger>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=automation, service=reload>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=automation, service=toggle>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=automation, service=turn_on>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=automation, service=turn_off>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setup of domain automation took 0.0 seconds.
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=automation>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.loader] Loaded config.script from homeassistant.components.config.script
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config.script>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.loader] Loaded config.group from homeassistant.components.config.group
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config.group>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.loader] Loaded config.automation from homeassistant.components.config.automation
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config.automation>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.loader] Loaded config.core from homeassistant.components.config.core
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config.core>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.loader] Loaded config.customize from homeassistant.components.config.customize
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config.customize>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.loader] Loaded config.hassbian from homeassistant.components.config.hassbian
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=logbook, service=log>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setup of domain logbook took 0.0 seconds.
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=logbook>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setup of domain config took 0.0 seconds.
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=config>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setting up wink
+2018-01-22 08:55:27 INFO (SyncWorker_10) [homeassistant.components.wink] Using oauth authentication
+2018-01-22 08:55:27 INFO (SyncWorker_10) [homeassistant.loader] Loaded configurator from homeassistant.components.configurator
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=configurator, service=configure>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=configurator.wink, old_state=None, new_state=<state configurator.wink=configure; configure_id=140618685184544-1, fields=[{'id': 'client_id', 'name': 'Client ID', 'type': 'string'}, {'id': 'client_secret', 'name': 'Client secret', 'type': 'string'}], friendly_name=wink, entity_picture=None, description=Please create a Wink developer app at
+                     https://developer.wink.com.
+                     Add a Redirect URI of https://dfiore.duckdns.org:8123/auth/wink/callback.
+                     They will provide you a Client ID and secret
+                     after reviewing your request.
+                     (This can take several days).
+                     
+
+![Description image](/static/images/config_wink.png), submit_caption=submit @ 2018-01-22T08:55:27.521099-05:00>>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setup of domain wink took 0.2 seconds.
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=wink>
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setting up tts
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setting up cloud
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.setup] Setup of domain cloud took 0.1 seconds.
+2018-01-22 08:55:27 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=cloud>
+2018-01-22 08:55:28 INFO (MainThread) [homeassistant.setup] Setting up updater
+2018-01-22 08:55:28 INFO (MainThread) [homeassistant.setup] Setup of domain updater took 0.0 seconds.
+2018-01-22 08:55:28 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=updater>
+2018-01-22 08:55:28 INFO (MainThread) [homeassistant.setup] Setting up discovery
+2018-01-22 08:55:28 INFO (MainThread) [homeassistant.setup] Setup of domain discovery took 0.0 seconds.
+2018-01-22 08:55:28 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=discovery>
+2018-01-22 08:55:28 INFO (SyncWorker_2) [homeassistant.util.package] Attempting install of https://github.com/gerard33/braviarc/archive/0.4.5.zip#braviarc==0.4.5
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.braviatv_psk
+2018-01-22 08:55:32 INFO (SyncWorker_9) [custom_components.media_player.braviatv_psk] Setting up Sony Bravia TV
+2018-01-22 08:55:32 DEBUG (SyncWorker_9) [custom_components.media_player.braviatv_psk] Set up Sony Bravia TV with IP: 172.16.42.127 - PSK: 01234 - MAC: 10:4f:a8:26:c9:02
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=media_player.sony_bravia_tv, old_state=None, new_state=<state media_player.sony_bravia_tv=off; friendly_name=Family Room TV, supported_features=23997 @ 2018-01-22T08:55:32.475637-05:00>>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=turn_on>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=turn_off>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=toggle>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=volume_up>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=volume_down>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=media_play_pause>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=media_play>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=media_pause>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=media_stop>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=media_next_track>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=media_previous_track>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=clear_playlist>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=volume_set>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=volume_mute>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=media_seek>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=select_source>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=play_media>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=media_player, service=shuffle_set>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.setup] Setup of domain media_player took 5.5 seconds.
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=media_player>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=tts, service=google_say>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=tts, service=clear_cache>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.setup] Setup of domain tts took 5.1 seconds.
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=tts>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.bootstrap] Home Assistant initialized in 7.25s
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Starting Home Assistant core loop
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Starting Home Assistant
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event homeassistant_start[L]>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.components.discovery] Found new service: hassio {}
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Timer:starting
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.loader] Loaded hassio from homeassistant.components.hassio
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.setup] Setting up hassio
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=hassio, service=addon_start>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=hassio, service=addon_stop>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=hassio, service=addon_restart>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=hassio, service=addon_stdin>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=hassio, service=host_shutdown>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=hassio, service=host_reboot>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=hassio, service=snapshot_full>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=hassio, service=snapshot_partial>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=hassio, service=restore_full>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=hassio, service=restore_partial>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=homeassistant, service=stop>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=homeassistant, service=restart>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event service_registered[L]: domain=homeassistant, service=check_config>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.setup] Setup of domain hassio took 0.0 seconds.
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event component_loaded[L]: component=hassio>
+2018-01-22 08:55:32 INFO (MainThread) [homeassistant.core] Bus:Handling <Event platform_discovered[L]: service=hassio, discovered=>
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable profile from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable config_file from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable credentials_file from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable data_path from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable profile from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable ca_bundle from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable profile from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable api_versions from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable profile from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable credentials_file from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable config_file from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable profile from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable metadata_service_timeout from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable profile from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable metadata_service_num_attempts from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.session] Loading variable profile from defaults.
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: env
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: assume-role
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: shared-credentials-file
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: config-file
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: ec2-credentials-file
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: boto-config
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: container-role
+2018-01-22 08:55:32 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: iam-role
+2018-01-22 08:55:32 INFO (SyncWorker_5) [botocore.vendored.requests.packages.urllib3.connectionpool] Starting new HTTP connection (1): 169.254.169.254
+2018-01-22 08:55:33 INFO (MainThread) [homeassistant.components.http] Serving /api/ to 172.30.32.2 (auth: True)
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.utils] Caught exception while trying to retrieve credentials: HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/meta-data/iam/security-credentials/ (Caused by ConnectTimeoutError(<botocore.awsrequest.AWSHTTPConnection object at 0x7fe456c2b748>, 'Connection to 169.254.169.254 timed out. (connect timeout=1)'))
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/connection.py", line 134, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/util/connection.py", line 88, in create_connection
+    raise err
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/util/connection.py", line 78, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/connectionpool.py", line 544, in urlopen
+    body=body, headers=headers)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/connectionpool.py", line 349, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/site-packages/botocore/awsrequest.py", line 130, in _send_request
+    self, method, url, body, headers, *args, **kwargs)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/site-packages/botocore/awsrequest.py", line 157, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/site-packages/botocore/awsrequest.py", line 242, in send
+    return HTTPConnection.send(self, str)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/connection.py", line 155, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/connection.py", line 139, in _new_conn
+    (self.host, self.timeout))
+botocore.vendored.requests.packages.urllib3.exceptions.ConnectTimeoutError: (<botocore.awsrequest.AWSHTTPConnection object at 0x7fe456c2b748>, 'Connection to 169.254.169.254 timed out. (connect timeout=1)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/adapters.py", line 370, in send
+    timeout=timeout
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/connectionpool.py", line 597, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/util/retry.py", line 271, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+botocore.vendored.requests.packages.urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/meta-data/iam/security-credentials/ (Caused by ConnectTimeoutError(<botocore.awsrequest.AWSHTTPConnection object at 0x7fe456c2b748>, 'Connection to 169.254.169.254 timed out. (connect timeout=1)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/botocore/utils.py", line 174, in _get_request
+    response = requests.get(url, timeout=timeout)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/api.py", line 69, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/sessions.py", line 465, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/sessions.py", line 573, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/adapters.py", line 419, in send
+    raise ConnectTimeout(e, request=request)
+botocore.vendored.requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/meta-data/iam/security-credentials/ (Caused by ConnectTimeoutError(<botocore.awsrequest.AWSHTTPConnection object at 0x7fe456c2b748>, 'Connection to 169.254.169.254 timed out. (connect timeout=1)'))
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.utils] Max number of attempts exceeded (1) when attempting to retrieve data from metadata service.
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.loaders] Loading JSON file: /usr/lib/python3.6/site-packages/botocore/data/endpoints.json
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.session] Loading variable profile from defaults.
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.loaders] Loading JSON file: /usr/lib/python3.6/site-packages/botocore/data/cognito-idp/2016-04-18/service-2.json
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.hooks] Event creating-client-class.cognito-idp: calling handler <function add_generate_presigned_url at 0x7fe451797b70>
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.args] The s3 config key is not a dictionary type, ignoring its value of: None
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.endpoint] Setting cognito-idp timeout as (60, 60)
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.loaders] Loading JSON file: /usr/lib/python3.6/site-packages/botocore/data/_retry.json
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.client] Registering retry handlers for service: cognito-idp
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.session] Loading variable profile from defaults.
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.session] Loading variable ca_bundle from defaults.
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.session] Loading variable profile from defaults.
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.session] Loading variable api_versions from defaults.
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: env
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: assume-role
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: shared-credentials-file
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: config-file
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: ec2-credentials-file
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: boto-config
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: container-role
+2018-01-22 08:55:33 DEBUG (SyncWorker_5) [botocore.credentials] Looking for credentials via: iam-role
+2018-01-22 08:55:33 INFO (SyncWorker_5) [botocore.vendored.requests.packages.urllib3.connectionpool] Starting new HTTP connection (1): 169.254.169.254
+2018-01-22 08:55:34 DEBUG (SyncWorker_5) [botocore.utils] Caught exception while trying to retrieve credentials: HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/meta-data/iam/security-credentials/ (Caused by ConnectTimeoutError(<botocore.awsrequest.AWSHTTPConnection object at 0x7fe45145df60>, 'Connection to 169.254.169.254 timed out. (connect timeout=1)'))
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/connection.py", line 134, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/util/connection.py", line 88, in create_connection
+    raise err
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/util/connection.py", line 78, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/connectionpool.py", line 544, in urlopen
+    body=body, headers=headers)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/connectionpool.py", line 349, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/site-packages/botocore/awsrequest.py", line 130, in _send_request
+    self, method, url, body, headers, *args, **kwargs)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/site-packages/botocore/awsrequest.py", line 157, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/site-packages/botocore/awsrequest.py", line 242, in send
+    return HTTPConnection.send(self, str)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/connection.py", line 155, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/connection.py", line 139, in _new_conn
+    (self.host, self.timeout))
+botocore.vendored.requests.packages.urllib3.exceptions.ConnectTimeoutError: (<botocore.awsrequest.AWSHTTPConnection object at 0x7fe45145df60>, 'Connection to 169.254.169.254 timed out. (connect timeout=1)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/adapters.py", line 370, in send
+    timeout=timeout
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/connectionpool.py", line 597, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/packages/urllib3/util/retry.py", line 271, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+botocore.vendored.requests.packages.urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/meta-data/iam/security-credentials/ (Caused by ConnectTimeoutError(<botocore.awsrequest.AWSHTTPConnection object at 0x7fe45145df60>, 'Connection to 169.254.169.254 timed out. (connect timeout=1)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/botocore/utils.py", line 174, in _get_request
+    response = requests.get(url, timeout=timeout)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/api.py", line 69, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/sessions.py", line 465, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/sessions.py", line 573, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.6/site-packages/botocore/vendored/requests/adapters.py", line 419, in send
+    raise ConnectTimeout(e, request=request)
+botocore.vendored.requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='169.254.169.254', port=80): Max retries exceeded with url: /latest/meta-data/iam/security-credentials/ (Caused by ConnectTimeoutError(<botocore.awsrequest.AWSHTTPConnection object at 0x7fe45145df60>, 'Connection to 169.254.169.254 timed out. (connect timeout=1)'))
+2018-01-22 08:55:34 DEBUG (SyncWorker_5) [botocore.utils] Max number of attempts exceeded (1) when attempting to retrieve data from metadata service.
+2018-01-22 08:55:34 DEBUG (SyncWorker_5) [botocore.session] Loading variable profile from defaults.
+2018-01-22 08:55:34 DEBUG (SyncWorker_5) [botocore.hooks] Event creating-client-class.cognito-idp: calling handler <function add_generate_presigned_url at 0x7fe451797b70>
+2018-01-22 08:55:34 DEBUG (SyncWorker_5) [botocore.args] The s3 config key is not a dictionary type, ignoring its value of: None
+2018-01-22 08:55:34 DEBUG (SyncWorker_5) [botocore.endpoint] Setting cognito-idp timeout as (60, 60)
+2018-01-22 08:55:34 DEBUG (SyncWorker_5) [botocore.client] Registering retry handlers for service: cognito-idp
+2018-01-22 08:55:35 INFO (MainThread) [homeassistant.components.cloud.iot] Connected
+2018-01-22 08:55:35 INFO (MainThread) [homeassistant.components.http] Serving /api/websocket to 172.16.42.1 (auth: False)
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Connected 
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Received {'type': 'subscribe_events', 'event_type': 'state_changed', 'id': 2}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Received {'type': 'subscribe_events', 'event_type': 'component_loaded', 'id': 3}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Sending {'id': 2, 'type': 'result', 'success': True, 'result': None}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Sending {'id': 3, 'type': 'result', 'success': True, 'result': None}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Received {'type': 'subscribe_events', 'event_type': 'service_registered', 'id': 4}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Received {'type': 'subscribe_events', 'event_type': 'service_removed', 'id': 5}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Received {'type': 'subscribe_events', 'event_type': 'themes_updated', 'id': 6}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Sending {'id': 4, 'type': 'result', 'success': True, 'result': None}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Sending {'id': 5, 'type': 'result', 'success': True, 'result': None}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Sending {'id': 6, 'type': 'result', 'success': True, 'result': None}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Received {'type': 'get_states', 'id': 7}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Received {'type': 'get_config', 'id': 8}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Received {'type': 'get_panels', 'id': 9}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Received {'type': 'get_services', 'id': 10}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Sending {'id': 7, 'type': 'result', 'success': True, 'result': [<state configurator.wink=configure; configure_id=140618685184544-1, fields=[{'id': 'client_id', 'name': 'Client ID', 'type': 'string'}, {'id': 'client_secret', 'name': 'Client secret', 'type': 'string'}], friendly_name=wink, entity_picture=None, description=Please create a Wink developer app at
+                     https://developer.wink.com.
+                     Add a Redirect URI of https://dfiore.duckdns.org:8123/auth/wink/callback.
+                     They will provide you a Client ID and secret
+                     after reviewing your request.
+                     (This can take several days).
+                     
+
+![Description image](/static/images/config_wink.png), submit_caption=submit @ 2018-01-22T08:55:27.521099-05:00>, <state media_player.sony_bravia_tv=off; friendly_name=Family Room TV, supported_features=23997 @ 2018-01-22T08:55:32.475637-05:00>]}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Sending {'id': 8, 'type': 'result', 'success': True, 'result': {'latitude': 40.5083, 'longitude': -74.7297, 'elevation': 29, 'unit_system': {'length': 'mi', 'mass': 'lb', 'temperature': '°F', 'volume': 'gal'}, 'location_name': 'Fiore Household', 'time_zone': 'America/New_York', 'components': {'wink', 'config.core', 'logger', 'recorder', 'sensor', 'intent_script', 'websocket_api', 'history', 'config.group', 'script', 'cloud', 'updater', 'automation', 'config', 'tts', 'frontend', 'system_log', 'shell_command', 'media_player.braviatv_psk', 'media_player', 'http', 'logbook', 'group', 'discovery', 'config.script', 'alexa', 'api', 'hassio', 'config.automation', 'config.customize'}, 'config_dir': '/config', 'whitelist_external_dirs': {'/config/www'}, 'version': '0.61.1'}}
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Sending {'id': 9, 'type': 'result', 'success': True, 'result': {'kiosk': {'component_name': 'kiosk', 'icon': None, 'title': None, 'url_path': 'kiosk', 'config': None, 'url': '/frontend_latest/panels/ha-panel-kiosk-e47111bc9da3c12bc554ef415f6d912b.html'}, 'dev-service': {'component_name': 'dev-service', 'icon': None, 'title': None, 'url_path': 'dev-service', 'config': None, 'url': '/frontend_latest/panels/ha-panel-dev-service-b777b9738c5059741f9026c5d504ce61.html'}, 'dev-state': {'component_name': 'dev-state', 'icon': None, 'title': None, 'url_path': 'dev-state', 'config': None, 'url': '/frontend_latest/panels/ha-panel-dev-state-e0e77322032dcc055e752acb6c166c39.html'}, 'dev-info': {'component_name': 'dev-info', 'icon': None, 'title': None, 'url_path': 'dev-info', 'config': None, 'url': '/frontend_latest/panels/ha-panel-dev-info-483753489e217f4f4189c1b8033b2a2d.html'}, 'dev-mqtt': {'component_name': 'dev-mqtt', 'icon': None, 'title': None, 'url_path': 'dev-mqtt', 'config': None, 'url': '/frontend_latest/panels/ha-panel-dev-mqtt-a54523ca58766ed07d96653d22eb31e1.html'}, 'dev-template': {'component_name': 'dev-template', 'icon': None, 'title': None, 'url_path': 'dev-template', 'config': None, 'url': '/frontend_latest/panels/ha-panel-dev-template-a8c27953615b25ae7398293a622b770c.html'}, 'dev-event': {'component_name': 'dev-event', 'icon': None, 'title': None, 'url_path': 'dev-event', 'config': None, 'url': '/frontend_latest/panels/ha-panel-dev-event-4291f8b8fbe99a2e77a94a79e03d14bc.html'}, 'history': {'component_name': 'history', 'icon': 'mdi:poll-box', 'title': 'history', 'url_path': 'history', 'config': None, 'url': '/frontend_latest/panels/ha-panel-history-a9a928488e1755c7c3283c1de7d41d32.html'}, 'config': {'component_name': 'config', 'icon': 'mdi:settings', 'title': 'config', 'url_path': 'config', 'config': None, 'url': '/frontend_latest/panels/ha-panel-config-9ed863782a150f6b20f5a13a43521d83.html'}, 'logbook': {'component_name': 'logbook', 'icon': 'mdi:format-list-bulleted-type', 'title': 'logbook', 'url_path': 'logbook', 'config': None, 'url': '/frontend_latest/panels/ha-panel-logbook-ff5e32160b7e47ab10a4b609b86d04a8.html'}, 'hassio': {'component_name': 'hassio', 'icon': 'mdi:access-point-network', 'title': 'Hass.io', 'url_path': 'hassio', 'config': None, 'url': '/frontend_latest/panels/ha-panel-hassio-b0881c44f5b5f7f0d14ba0c967560fc9.html'}}}
+2018-01-22 08:55:35 INFO (MainThread) [homeassistant.loader] Loaded persistent_notification from homeassistant.components.persistent_notification
+2018-01-22 08:55:35 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Sending {'id': 10, 'type': 'result', 'success': True, 'result': {'homeassistant': {'turn_off': {'description': 'Generic service to turn devices off under any domain. Same usage as the light.turn_on, switch.turn_on, etc. services.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'The entity_id of the device to turn off.'), ('example', 'light.living_room')]))])}, 'turn_on': {'description': 'Generic service to turn devices on under any domain. Same usage as the light.turn_on, switch.turn_on, etc. services.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'The entity_id of the device to turn on.'), ('example', 'light.living_room')]))])}, 'toggle': {'description': 'Generic service to toggle devices on/off under any domain. Same usage as the light.turn_on, switch.turn_on, etc. services.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'The entity_id of the device to toggle on/off.'), ('example', 'light.living_room')]))])}, 'stop': {'description': 'Stop the Home Assistant service. It is normal to get a "Failed to call service homeassistant/stop" message.', 'fields': {}}, 'restart': {'description': 'Restart the Home Assistant service. It is normal to get a "Failed to call service homeassistant/restart" message.', 'fields': {}}, 'check_config': {'description': 'Check the Home Assistant configuration files for errors. Errors will be displayed in the Home Assistant log.', 'fields': {}}, 'reload_core_config': {'description': 'Reload the core configuration.', 'fields': {}}}, 'persistent_notification': {'create': {'description': 'Show a notification in the frontend.', 'fields': OrderedDict([('message', OrderedDict([('description', 'Message body of the notification. [Templates accepted]'), ('example', 'Please check your configuration.yaml.')])), ('title', OrderedDict([('description', 'Optional title for your notification. [Optional, Templates accepted]'), ('example', 'Test notification')])), ('notification_id', OrderedDict([('description', 'Target ID of the notification, will replace a notification with the same Id. [Optional]'), ('example', 1234)]))])}, 'dismiss': {'description': 'Remove a notification from the frontend.', 'fields': OrderedDict([('notification_id', OrderedDict([('description', 'Target ID of the notification, which should be removed. [Required]'), ('example', 1234)]))])}}, 'logger': {'set_level': {'description': 'Set log level for components.', 'fields': {}}}, 'system_log': {'clear': {'description': '', 'fields': {}}}, 'recorder': {'purge': {'description': 'Start purge task - delete events and states older than x days, according to keep_days service data.', 'fields': OrderedDict([('keep_days', OrderedDict([('description', 'Number of history days to keep in database after purge. Value >= 0.'), ('example', 2)]))])}}, 'group': {'reload': {'description': 'Reload group configuration.', 'fields': {}}, 'set': {'description': 'Create/Update a user group.', 'fields': OrderedDict([('object_id', OrderedDict([('description', 'Group id and part of entity id.'), ('example', 'test_group')])), ('name', OrderedDict([('description', 'Name of group'), ('example', 'My test group')])), ('view', OrderedDict([('description', 'Boolean for if the group is a view.'), ('example', True)])), ('icon', OrderedDict([('description', 'Name of icon for the group.'), ('example', 'mdi:camera')])), ('control', OrderedDict([('description', 'Value for control the group control.'), ('example', 'hidden')])), ('visible', OrderedDict([('description', 'If the group is visible on UI.'), ('example', True)])), ('entities', OrderedDict([('description', "List of all members in the group. Not compatible with 'delta'."), ('example', 'domain.entity_id1, domain.entity_id2')])), ('add_entities', OrderedDict([('description', 'List of members they will change on group listening.'), ('example', 'domain.entity_id1, domain.entity_id2')]))])}, 'remove': {'description': 'Remove a user group.', 'fields': OrderedDict([('object_id', OrderedDict([('description', 'Group id and part of entity id.'), ('example', 'test_group')]))])}, 'set_visibility': {'description': 'Hide or show a group.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to set value.'), ('example', 'group.travel')])), ('visible', OrderedDict([('description', 'True if group should be shown or False if it should be hidden.'), ('example', True)]))])}}, 'shell_command': {'openremote': {'description': '', 'fields': {}}}, 'script': {'reload': {'description': '', 'fields': {}}, 'turn_on': {'description': '', 'fields': {}}, 'turn_off': {'description': '', 'fields': {}}, 'toggle': {'description': '', 'fields': {}}}, 'automation': {'trigger': {'description': 'Trigger the action of an automation.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name of the automation to trigger.'), ('example', 'automation.notify_home')]))])}, 'reload': {'description': 'Reload the automation configuration.', 'fields': {}}, 'toggle': {'description': 'Toggle an automation.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name of the automation to toggle on/off.'), ('example', 'automation.notify_home')]))])}, 'turn_on': {'description': 'Enable an automation.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name of the automation to turn on.'), ('example', 'automation.notify_home')]))])}, 'turn_off': {'description': 'Disable an automation.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name of the automation to turn off.'), ('example', 'automation.notify_home')]))])}}, 'logbook': {'log': {'description': '', 'fields': {}}}, 'configurator': {'configure': {'description': '', 'fields': {}}}, 'media_player': {'turn_on': {'description': 'Turn a media player power on.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to turn on.'), ('example', 'media_player.living_room_chromecast')]))])}, 'turn_off': {'description': 'Turn a media player power off.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to turn off.'), ('example', 'media_player.living_room_chromecast')]))])}, 'toggle': {'description': 'Toggles a media player power state.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to toggle.'), ('example', 'media_player.living_room_chromecast')]))])}, 'volume_up': {'description': 'Turn a media player volume up.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to turn volume up on.'), ('example', 'media_player.living_room_sonos')]))])}, 'volume_down': {'description': 'Turn a media player volume down.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to turn volume down on.'), ('example', 'media_player.living_room_sonos')]))])}, 'media_play_pause': {'description': 'Toggle media player play/pause state.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to toggle play/pause state on.'), ('example', 'media_player.living_room_sonos')]))])}, 'media_play': {'description': 'Send the media player the command for play.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to play on.'), ('example', 'media_player.living_room_sonos')]))])}, 'media_pause': {'description': 'Send the media player the command for pause.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to pause on.'), ('example', 'media_player.living_room_sonos')]))])}, 'media_stop': {'description': 'Send the media player the stop command.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to stop on.'), ('example', 'media_player.living_room_sonos')]))])}, 'media_next_track': {'description': 'Send the media player the command for next track.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to send next track command to.'), ('example', 'media_player.living_room_sonos')]))])}, 'media_previous_track': {'description': 'Send the media player the command for previous track.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to send previous track command to.'), ('example', 'media_player.living_room_sonos')]))])}, 'clear_playlist': {'description': 'Send the media player the command to clear players playlist.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to change source on.'), ('example', 'media_player.living_room_chromecast')]))])}, 'volume_set': {'description': "Set a media player's volume level.", 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to set volume level on.'), ('example', 'media_player.living_room_sonos')])), ('volume_level', OrderedDict([('description', 'Volume level to set as float.'), ('example', 0.6)]))])}, 'volume_mute': {'description': "Mute a media player's volume.", 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to mute.'), ('example', 'media_player.living_room_sonos')])), ('is_volume_muted', OrderedDict([('description', 'True/false for mute/unmute.'), ('example', True)]))])}, 'media_seek': {'description': 'Send the media player the command to seek in current playing media.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to seek media on.'), ('example', 'media_player.living_room_chromecast')])), ('seek_position', OrderedDict([('description', 'Position to seek to. The format is platform dependent.'), ('example', 100)]))])}, 'select_source': {'description': 'Send the media player the command to change input source.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to change source on.'), ('example', 'media_player.media_player.txnr535_0009b0d81f82')])), ('source', OrderedDict([('description', 'Name of the source to switch to. Platform dependent.'), ('example', 'video1')]))])}, 'play_media': {'description': 'Send the media player the command for playing media.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to seek media on'), ('example', 'media_player.living_room_chromecast')])), ('media_content_id', OrderedDict([('description', 'The ID of the content to play. Platform dependent.'), ('example', 'https://home-assistant.io/images/cast/splash.png')])), ('media_content_type', OrderedDict([('description', 'The type of the content to play. Must be one of MUSIC, TVSHOW, VIDEO, EPISODE, CHANNEL or PLAYLIST'), ('example', 'MUSIC')]))])}, 'shuffle_set': {'description': 'Set shuffling state.', 'fields': OrderedDict([('entity_id', OrderedDict([('description', 'Name(s) of entities to set.'), ('example', 'media_player.spotify')])), ('shuffle', OrderedDict([('description', 'True/false for enabling/disabling shuffle.'), ('example', True)]))])}}, 'tts': {'google_say': {'description': '', 'fields': {}}, 'clear_cache': {'description': 'Remove cache files and RAM cache.', 'fields': {}}}, 'hassio': {'addon_start': {'description': 'Start a HassIO docker addon.', 'fields': OrderedDict([('addon', OrderedDict([('description', 'Name of addon.'), ('example', 'smb_config')]))])}, 'addon_stop': {'description': 'Stop a HassIO docker addon.', 'fields': OrderedDict([('addon', OrderedDict([('description', 'Name of addon.'), ('example', 'smb_config')]))])}, 'addon_restart': {'description': '', 'fields': {}}, 'addon_stdin': {'description': '', 'fields': {}}, 'host_shutdown': {'description': 'Poweroff host computer.', 'fields': {}}, 'host_reboot': {'description': 'Reboot host computer.', 'fields': {}}, 'snapshot_full': {'description': '', 'fields': {}}, 'snapshot_partial': {'description': '', 'fields': {}}, 'restore_full': {'description': '', 'fields': {}}, 'restore_partial': {'description': '', 'fields': {}}}}}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Unknown service discovered: songpal {'host': '172.16.42.127', 'port': 41856, 'ssdp_description': 'http://172.16.42.127:41856/sony/webapi/ssdp/dd.xml', 'name': 'Family Room', 'model_name': 'XBR-65X900C', 'model_number': None, 'serial': None, 'properties': {'scalarwebapi': {'X_ScalarWebAPI_Version': '1.0', 'X_ScalarWebAPI_BaseURL': 'http://172.16.42.127/sony', 'X_ScalarWebAPI_ServiceList': {'X_ScalarWebAPI_ServiceType': ['guide', 'accessControl', 'encryption', 'contentshare', 'avContent', 'cec', 'audio', 'system', 'appControl', 'videoScreen']}}, 'endpoint': 'http://172.16.42.127/sony'}}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Unknown service discovered: homekit {'host': '172.16.42.107', 'port': 80, 'hostname': 'hap-19245F.local.', 'properties': {'c#': '1', 'ff': '1', 'id': '98:D0:D1:05:3D:D4', 'md': 'iSP6X', 'pv': '1.0', 'sf': '0', 'ci': '7', 's#': '1'}}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Unknown service discovered: DLNA {'host': '172.16.42.112', 'port': 1400, 'ssdp_description': 'http://172.16.42.112:1400/xml/device_description.xml', 'name': '172.16.42.112 - Sonos PLAY:1', 'model_name': 'Sonos PLAY:1', 'model_number': 'S1', 'serial': None}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Unknown service discovered: DLNA {'host': '172.16.42.115', 'port': 1400, 'ssdp_description': 'http://172.16.42.115:1400/xml/device_description.xml', 'name': '172.16.42.115 - Sonos ELREY', 'model_name': 'Sonos ELREY', 'model_number': 'S14', 'serial': None}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Unknown service discovered: DLNA {'host': '172.16.42.126', 'port': 1400, 'ssdp_description': 'http://172.16.42.126:1400/xml/device_description.xml', 'name': '172.16.42.126 - Sonos PLAY:1', 'model_name': 'Sonos PLAY:1', 'model_number': 'S1', 'serial': None}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Unknown service discovered: DLNA {'host': '172.16.42.180', 'port': 32469, 'ssdp_description': 'http://172.16.42.180:32469/DeviceDescription.xml', 'name': 'Plex Media Server: Home Server', 'model_name': 'Plex Media Server', 'model_number': '1.9.4.4325', 'serial': None}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Ignoring service: roku {'host': '172.16.42.102', 'port': 8060, 'ssdp_description': 'http://172.16.42.102:8060/', 'name': 'Roku 3 - 4124CW014265', 'model_name': 'Roku 3', 'model_number': '4200X', 'serial': '4124CW014265'}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Ignoring service: roku {'host': '172.16.42.106', 'port': 8060, 'ssdp_description': 'http://172.16.42.106:8060/', 'name': 'Kitchen', 'model_name': 'Roku 3', 'model_number': '4200X', 'serial': '1GU4A1033265'}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Ignoring service: roku {'host': '172.16.42.114', 'port': 8060, 'ssdp_description': 'http://172.16.42.114:8060/', 'name': 'Office', 'model_name': 'Roku Stick', 'model_number': '3500X', 'serial': '2LA4AN009518'}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Found new service: google_cast {'host': '172.16.42.127', 'port': 8009, 'hostname': 'ea257afd-267e-e155-9a38-476aeda8191b.local.', 'properties': {'id': 'ea257afd267ee1559a38476aeda8191b', 'cd': 'ea257afd267ee1559a38476aeda8191b', 'rm': False, 've': '05', 'md': 'AirScreen', 'ic': '/setup/icon.png', 'fn': 'Family Room[Cast]', 'ca': '4101', 'st': '0', 'bs': 'FFFFFFFFFFFF', 'nf': '1', 'rs': False}}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.core] Bus:Handling <Event platform_discovered[L]: service=load_platform.media_player, platform=cast, discovered=host=172.16.42.127, port=8009, hostname=ea257afd-267e-e155-9a38-476aeda8191b.local., properties=id=ea257afd267ee1559a38476aeda8191b, cd=ea257afd267ee1559a38476aeda8191b, rm=False, ve=05, md=AirScreen, ic=/setup/icon.png, fn=Family Room[Cast], ca=4101, st=0, bs=FFFFFFFFFFFF, nf=1, rs=False>
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Found new service: plex_mediaserver {'name': 'Home Server', 'host': '172.16.42.180', 'port': '32400', 'urlbase': 'https://172.16.42.180:32400'}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.core] Bus:Handling <Event platform_discovered[L]: service=load_platform.media_player, platform=plex, discovered=name=Home Server, host=172.16.42.180, port=32400, urlbase=https://172.16.42.180:32400>
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Ignoring service: sonos {'host': '172.16.42.112', 'port': 1400, 'ssdp_description': 'http://172.16.42.112:1400/xml/device_description.xml', 'name': '172.16.42.112 - Sonos PLAY:1', 'model_name': 'Sonos PLAY:1', 'model_number': 'S1', 'serial': None}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Ignoring service: sonos {'host': '172.16.42.115', 'port': 1400, 'ssdp_description': 'http://172.16.42.115:1400/xml/device_description.xml', 'name': '172.16.42.115 - Sonos ELREY', 'model_name': 'Sonos ELREY', 'model_number': 'S14', 'serial': None}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Ignoring service: sonos {'host': '172.16.42.126', 'port': 1400, 'ssdp_description': 'http://172.16.42.126:1400/xml/device_description.xml', 'name': '172.16.42.126 - Sonos PLAY:1', 'model_name': 'Sonos PLAY:1', 'model_number': 'S1', 'serial': None}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Unknown service discovered: spotify_connect {'host': '172.16.42.115', 'port': 1400, 'hostname': 'sonos949F3ED8E77D.local.', 'properties': {'VERSION': '1.0', 'CPath': '/spotifyzc'}}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Unknown service discovered: spotify_connect {'host': '172.16.42.112', 'port': 1400, 'hostname': 'sonos5CAAFD94070E.local.', 'properties': {'VERSION': '1.0', 'CPath': '/spotifyzc'}}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.discovery] Unknown service discovered: spotify_connect {'host': '172.16.42.126', 'port': 1400, 'hostname': 'sonos5CAAFD27DE9C.local.', 'properties': {'VERSION': '1.0', 'CPath': '/spotifyzc'}}
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.loader] Loaded media_player.cast from homeassistant.components.media_player.cast
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.loader] Loaded media_player.plex from homeassistant.components.media_player.plex
+2018-01-22 08:55:45 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.cast
+2018-01-22 08:55:46 INFO (MainThread) [homeassistant.components.media_player] Setting up media_player.plex
+2018-01-22 08:55:46 INFO (SyncWorker_2) [homeassistant.components.media_player.plex] Discovery configuration done (no token needed)
+2018-01-22 08:55:46 INFO (SyncWorker_2) [homeassistant.components.media_player.plex] Connected to: http://172.16.42.180:32400
+2018-01-22 08:55:46 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=media_player.bravia_4k_2015, old_state=None, new_state=<state media_player.bravia_4k_2015=idle; app_name=, media_content_rating=None, session_username=None, media_library_name=, friendly_name=BRAVIA 4K 2015, hidden=True @ 2018-01-22T08:55:46.076775-05:00>>
+2018-01-22 08:55:46 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=media_player.office, old_state=None, new_state=<state media_player.office=idle; app_name=, media_content_rating=None, session_username=None, media_library_name=, friendly_name=Office Roku @ 2018-01-22T08:55:46.077945-05:00>>
+2018-01-22 08:55:46 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Sending {'id': 2, 'type': 'event', 'event': {'event_type': 'state_changed', 'data': {'entity_id': 'media_player.bravia_4k_2015', 'old_state': None, 'new_state': <state media_player.bravia_4k_2015=idle; app_name=, media_content_rating=None, session_username=None, media_library_name=, friendly_name=BRAVIA 4K 2015, hidden=True @ 2018-01-22T08:55:46.076775-05:00>}, 'origin': 'LOCAL', 'time_fired': datetime.datetime(2018, 1, 22, 13, 55, 46, 76790, tzinfo=<UTC>)}}
+2018-01-22 08:55:46 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Sending {'id': 2, 'type': 'event', 'event': {'event_type': 'state_changed', 'data': {'entity_id': 'media_player.office', 'old_state': None, 'new_state': <state media_player.office=idle; app_name=, media_content_rating=None, session_username=None, media_library_name=, friendly_name=Office Roku @ 2018-01-22T08:55:46.077945-05:00>}, 'origin': 'LOCAL', 'time_fired': datetime.datetime(2018, 1, 22, 13, 55, 46, 77962, tzinfo=<UTC>)}}
+2018-01-22 08:55:54 INFO (SyncWorker_16) [pychromecast] Querying device status
+2018-01-22 08:55:54 DEBUG (SyncWorker_16) [pychromecast.controllers] Receiver:Updating status
+2018-01-22 08:55:54 DEBUG (SyncWorker_16) [pychromecast.socket_client] Sending: Message urn:x-cast:com.google.cast.tp.connection from sender-0 to receiver-0: {'type': 'CONNECT', 'origin': {}, 'userAgent': 'PyChromecast', 'senderInfo': {'sdkType': 2, 'version': '15.605.1.3', 'browserVersion': '44.0.2403.30', 'platform': 4, 'systemVersion': 'Macintosh; Intel Mac OS X10_10_3', 'connectionType': 1}}
+2018-01-22 08:55:54 DEBUG (SyncWorker_16) [pychromecast.socket_client] Sending: Message urn:x-cast:com.google.cast.receiver from sender-0 to receiver-0: {'type': 'GET_STATUS', 'requestId': 1}
+2018-01-22 08:55:54 DEBUG (SyncWorker_16) [pychromecast.socket_client] Connected!
+2018-01-22 08:55:54 DEBUG (Thread-2) [root] Thread started...
+2018-01-22 08:55:54 INFO (MainThread) [homeassistant.core] Bus:Handling <Event state_changed[L]: entity_id=media_player.family_roomcast, old_state=None, new_state=<state media_player.family_roomcast=off; friendly_name=Family Room[Cast], hidden=True, supported_features=21437 @ 2018-01-22T08:55:54.449926-05:00>>
+2018-01-22 08:55:54 DEBUG (MainThread) [homeassistant.components.websocket_api] WS 140618590905960: Sending {'id': 2, 'type': 'event', 'event': {'event_type': 'state_changed', 'data': {'entity_id': 'media_player.family_roomcast', 'old_state': None, 'new_state': <state media_player.family_roomcast=off; friendly_name=Family Room[Cast], hidden=True, supported_features=21437 @ 2018-01-22T08:55:54.449926-05:00>}, 'origin': 'LOCAL', 'time_fired': datetime.datetime(2018, 1, 22, 13, 55, 54, 449956, tzinfo=<UTC>)}}
+2018-01-22 08:55:54 DEBUG (Thread-2) [pychromecast.socket_client] Received: Message urn:x-cast:com.google.cast.receiver from ea257afd267ee1559a38476aeda8191b to sender-0: {'type': 'RECEIVER_STATUS', 'requestId': 1, 'status': {'applications': [{'appId': 'E8C28D3C', 'displayName': 'Backdrop', 'isIdleScreen': True, 'namespaces': [{'name': 'urn:x-cast:com.google.cast.debugoverlay'}, {'name': 'urn:x-cast:com.google.cast.cac'}, {'name': 'urn:x-cast:com.google.cast.sse'}], 'sessionId': '9bdf5c17-1eed-4c8b-ad70-c004f83bf947', 'statusText': '', 'transportId': '9bdf5c17-1eed-4c8b-ad70-c004f83bf947'}], 'volume': {'controlType': 'attenuation', 'level': 0.29, 'muted': False, 'stepInterval': 0.05}}}
+2018-01-22 08:55:54 DEBUG (Thread-2) [pychromecast.controllers] Received status: CastStatus(is_active_input=False, is_stand_by=True, volume_level=0.29, volume_muted=False, app_id='E8C28D3C', display_name='Backdrop', namespaces=['urn:x-cast:com.google.cast.debugoverlay', 'urn:x-cast:com.google.cast.cac', 'urn:x-cast:com.google.cast.sse'], session_id='9bdf5c17-1eed-4c8b-ad70-c004f83bf947', transport_id='9bdf5c17-1eed-4c8b-ad70-c004f83bf947', status_text='')

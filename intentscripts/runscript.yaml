@@ -1,0 +1,10 @@
+  RunScriptIntent:
+    action:
+      service: shell_command.openremote
+      data_template:
+        room: '{{room}}'
+        status: '{{status}}'
+    speech:
+      type: plain
+      #text: !include alexa_confirm.yaml 
+      text: OK! Changing {{room}} to {{status}}
