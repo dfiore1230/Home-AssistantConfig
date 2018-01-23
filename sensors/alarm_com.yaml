@@ -1,7 +1,6 @@
 
-sensor:
   alarm_control_panel:
-  platform: alarmdotcom
-  name: Home Alarm
-  username: !secret alarm_user
-  password: !secret alarm_pass
+    platform: alarmdotcom
+    name: Home Alarm
+    username: !secret alarm_user
+    password: !secret alarm_pass
