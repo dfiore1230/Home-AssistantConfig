@@ -1,8 +1,9 @@
   homeserver:
+    name: Ubuntu Server
     view: yes
     entities:
       - group.ubuntu_server_group
-      
+
   ubuntu_server_group:
     name: Ubuntu Server
     entities:
