@@ -1,5 +1,6 @@
 internet_speed_group:
   name: Internet Speed
+  icon: mdi:wifi
   entities:
     - sensor.external_ip
     - sensor.speedtest_download

@@ -1,6 +1,7 @@
   homeserver:
     name: Ubuntu Server
     view: yes
+    icon: mdi:server
     entities:
       - group.ubuntu_server_group
 
