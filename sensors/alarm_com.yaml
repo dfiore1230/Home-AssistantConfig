@@ -1,4 +1,4 @@
-    platform: alarmdotcom
+    platform: pyalarmdotcom
     name: Home Alarm
     username: !secret alarm_user
     password: !secret alarm_pass
