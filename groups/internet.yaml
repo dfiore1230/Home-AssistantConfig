@@ -1,6 +1,7 @@
 internet_speed_group:
   name: Internet Speed
   entities:
+    - sensor.external_ip
     - sensor.speedtest_download
-    - sensor.speedtest_ping
     - sensor.speedtest_upload
+    - sensor.speedtest_ping
