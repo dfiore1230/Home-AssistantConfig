@@ -68,6 +68,7 @@ tts:
 # Static Includes
 automation: !include automations.yaml
 shell_command: !include shell_scripts.yaml
+alarm_control_panel: !include alarm_com.yaml
 
 # Merge Includes List
 script: !include_dir_merge_list scripts
