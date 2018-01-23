@@ -1,6 +1,7 @@
   ubuntu_server_group:
     name: System Info
     entities:
+      - sensor.sab_status
       - sensor.average_load_1m
       - sensor.average_load_5m
       - sensor.average_load_15m
