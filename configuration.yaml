@@ -57,17 +57,21 @@ wink:
 cloud:
 alexa:
   filter:
-    exclude_entities:
-      - group.internet
-      - group.default_view
-      - group.cell_phones_group
-      - media_player.bravia_4k_2015
-      - group.homeserver
-      - media_player.office
-      - group.phones
-      - group.home_alarm_group
-      - group.all_devices
-      - group.ubuntu_server_group
+    include_entities:
+      - media_player.sony_bravia_tv
+      - alarm_control_panel.home_alarm
+    include_domains:
+      - scenes
+    exclude_domains:
+      - script
+      - automation
+      - group
+      - lock
+      - media_player
+      - switch
+      - cover
+      - alert
+
 tts:
   - platform: google
 
