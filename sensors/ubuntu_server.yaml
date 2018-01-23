@@ -36,3 +36,17 @@
     resource: http://ip.jsontest.com
     name: External IP
     value_template: '{{ value_json.ip }}'
+  - platform: nut
+    alias: serverups
+    name: "Ubuntu Server UPS"
+    host: 172.16.42.180
+    port: 3493
+    resources:
+      - ups.load
+      - ups.realpower.nominal
+      - battery.charge
+      - battery.runtime
+      - input.voltage
+      - ups.mfr
+      - ups.mfr.date
+      - ups.model
