@@ -8,3 +8,4 @@ alarm:
 home_alarm_group:
   name: Home Alarm
   entities:
+    - alarm_control_panel.home_alarm
