@@ -1,0 +1,10 @@
+alarm:
+  name: Home Alarm
+  view: yes
+  icon: mdi:alarm-light
+  entities:
+    - group.home_alarm_group
+
+home_alarm_group:
+  name: Home Alarm
+  entities:
