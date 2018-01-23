@@ -2,5 +2,5 @@
 !*
 secrets.yaml
 config
-home-assistant.log
+*.log
 *INPROGRESS*
