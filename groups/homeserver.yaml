@@ -16,3 +16,11 @@
       - sensor.sent_hassio
       - sensor.received_p6p1
       - sensor.sent_p6p1
+      - sensor.ubuntu_server_ups_manufacturer
+      - sensor.ubuntu_server_ups_model
+      - sensor.ubuntu_server_ups_manufacture_date
+      - sensor.ubuntu_server_ups_load
+      - sensor.ubuntu_server_ups_nominal_real_power
+      - sensor.ubuntu_server_ups_input_voltage
+      - sensor.ubuntu_server_ups_battery_charge
+      - sensor.ubuntu_server_ups_battery_runtime
