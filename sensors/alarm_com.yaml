@@ -1,5 +1,5 @@
 
 sensor:
   alarm_control_panel:
-  username: !secrets alarm_user
-  password: !secrets alarm_pass
+  username: !secret alarm_user
+  password: !secret alarm_pass
