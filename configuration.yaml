@@ -45,7 +45,7 @@ history:
 logbook:
 
 logger:
-  #default: debug
+  default: debug
 
 ###############################################
 #
