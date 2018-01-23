@@ -6,4 +6,3 @@
       - group.all_devices
       - group.dave_iphone_group
       - group.internet_speed_group
-      - group.ubuntu_server_group
