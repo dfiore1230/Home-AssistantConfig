@@ -1,4 +1,3 @@
-
     platform: alarmdotcom
     name: Home Alarm
     username: !secret alarm_user
