@@ -1,9 +1,9 @@
   - platform: systemmonitor
     resources:
       - type: disk_use_percent
-        arg: /
+        arg: '/'
       - type: disk_use_percent
-        arg: /data/TimeMachine/dfiore
+        arg: '/data/TimeMachine/dfiore'
       - type: disk_use_percent
         arg: /data/Temp
       - type: disk_use_percent
