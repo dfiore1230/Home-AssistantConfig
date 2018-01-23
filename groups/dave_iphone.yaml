@@ -1,3 +1,10 @@
+phones:
+  name: Phones
+  view: yes
+  icon: mdi:cellphone-basic
+  entities:
+    - group.dave_iphone_group
+
 dave_iphone_group:
   name: Daves iPhone
   entities:
