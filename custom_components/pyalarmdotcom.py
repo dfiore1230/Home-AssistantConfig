@@ -26,7 +26,7 @@ class Alarmdotcom(object):
     LOGIN_BUTTON = ('name', 'ctl00$ContentPlaceHolder1$btnLogin')
 
     STATUS_IMG = ('id', 'ctl00_phBody_lblArmingState')
-    
+
     BTN_DISARM = ('id', 'ctl00_phBody_butDisarm')
     BTN_ARM_STAY = ('id', 'ctl00_phBody_butArmStay', 'ctl00_phBody_ArmingStateWidget_btnArmOptionStay')
     BTN_ARM_AWAY = ('id', 'ctl00_phBody_butArmAway', 'ctl00_phBody_ArmingStateWidget_btnArmOptionAway')
@@ -38,24 +38,24 @@ class Alarmdotcom(object):
 
     # Alarm.com baseURL
     ALARMDOTCOM_URL = 'https://www.alarm.com/pda/'
-    
+
     # Session key regex to extract the current session
     SESSION_KEY_RE = re.compile(
         '{url}(?P<sessionKey>.*)/Default.aspx'.format(url=ALARMDOTCOM_URL))
-    
+
     # ALARM.COM CSS MAPPINGS
     USERNAME = 'ctl00$ContentPlaceHolder1$txtLogin'
     PASSWORD = 'ctl00$ContentPlaceHolder1$txtPassword'
-    
+
     LOGIN_CONST = 'ctl00$ContentPlaceHolder1$btnLogin'
-    
+
     ERROR_CONTROL = 'ctl00_ContentPlaceHolder1_ErrorControl1'
     MESSAGE_CONTROL = 'ctl00_ErrorControl1'
-    
+
     VIEWSTATE = '__VIEWSTATE'
     VIEWSTATEGENERATOR = '__VIEWSTATEGENERATOR'
     VIEWSTATEENCRYPTED = '__VIEWSTATEENCRYPTED'
-    
+
     # Event validation
     EVENTVALIDATION = '__EVENTVALIDATION'
     DISARM_EVENT_VALIDATION = \
@@ -66,11 +66,11 @@ class Alarmdotcom(object):
         'IFcyrtacuqXSy5dMoqBPX3aV2ruxZBTUVxenQ' \
         '7luwjnNdcsxQW/p+YvHjN9ialbwACZfQsFt2o5'
     ARM_AWAY_EVENT_VALIDATION = '3ciB9sbTGyjfsnXn7J4LjfBvdGlkqiHoeh1vPjc5'
-    
+
     DISARM_COMMAND = 'ctl00$phBody$butDisarm'
     ARM_STAY_COMMAND = 'ctl00$phBody$butArmStay'
     ARM_AWAY_COMMAND = 'ctl00$phBody$butArmAway'
-    
+
     ARMING_PANEL = '#ctl00_phBody_pnlArming'
     ALARM_STATE = '#ctl00_phBody_lblArmingState'
     SENSOR_STATUS = '#ctl00_phBody_lblSensorStatus'
@@ -81,7 +81,7 @@ class Alarmdotcom(object):
                              'eventvalidation': ARM_STAY_EVENT_VALIDATION},
                 'Arm+Away': {'command': ARM_AWAY_COMMAND,
                              'eventvalidation': ARM_AWAY_EVENT_VALIDATION}}
-    
+
     def __init__(self, username, password, websession, loop):
         """
         Use aiohttp to make a request to alarm.com
