@@ -1,6 +1,6 @@
 dave_iphone_group:
   name: Daves iPhone
   entities:
-    - sensor.olive_batter_level
-    - sensor.olive_batter_state
+    - sensor.olive_battery_level
+    - sensor.olive_battery_state
     - device_tracker.olive
