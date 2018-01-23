@@ -1,3 +1,10 @@
+homeserver:
+  name: Internet
+  view: yes
+  icon: mdi:wifi
+  entities:
+    - group.internet_speed_group
+
 internet_speed_group:
   name: Internet Speed
   icon: mdi:wifi
