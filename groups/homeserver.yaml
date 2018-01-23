@@ -1,6 +1,5 @@
   ubuntu_server_group:
     name: Ubuntu Server
-    view: yes
     entities:
       - sensor.sab_status
       - sensor.average_load_1m
