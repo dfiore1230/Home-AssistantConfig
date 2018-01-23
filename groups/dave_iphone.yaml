@@ -3,10 +3,10 @@ phones:
   view: yes
   icon: mdi:cellphone-basic
   entities:
-    - group.dave_iphone_group
+    - group.cell_phones_group
 
-dave_iphone_group:
-  name: Daves iPhone
+cell_phones_group:
+  name: Cell Phones
   entities:
     - sensor.olive_battery_level
     - sensor.olive_battery_state
