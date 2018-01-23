@@ -1,9 +1,9 @@
   - platform: systemmonitor
     resources:
       - type: disk_use_percent
-        arg: "/"
+        arg: /
       - type: disk_use_percent
-        arg: "/data/TimeMachine/dfiore"
+        arg: /data/TimeMachine/dfiore
       - type: disk_use_percent
         arg: /data/Temp
       - type: disk_use_percent
@@ -36,7 +36,7 @@
       - type: fan_speed
       - type: hdd_temp
       - type: swap_used_percent
-      
+
   - platform: rest
     scan_interval: 86400
     resource: http://ip.jsontest.com
