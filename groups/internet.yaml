@@ -1,4 +1,4 @@
-homeserver:
+internet:
   name: Internet
   view: yes
   icon: mdi:wifi
