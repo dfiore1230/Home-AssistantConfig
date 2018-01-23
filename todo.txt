@@ -5,10 +5,11 @@
 3. Hardwire Office tv and get it working + turn on
 4. Complete Wink Integration
 5. Add app control to braviarc_psk
-6. UI Setup
-7. Group rooms
+6. PARTIAL -UI Setup- // Need to add tabs to clean up
+7. DONE -Group rooms-
 8. Setup scenes
-9. iHome Outlet control (https://www.reddit.com/r/homeassistant/comments/5g5ln9/ihome_isp5/) // Doesnt look good for this
-10. GE Zwave switch control
-11. DONE -sabnzbd monitoring-
-12. HomeBridge SUPPORT
+9. GE Zwave switch control
+10. DONE -sabnzbd monitoring-
+11. HomeBridge SUPPORT
+12. ACUPS monitor
+13. lizas iPhone
