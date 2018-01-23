@@ -58,7 +58,16 @@ cloud:
 alexa:
   filter:
     exclude_entities:
-      - group.internet_speed_group
+      - group.internet
+      - group.default_view
+      - group.cell_phones_group
+      - media_player.bravia_4k_2015
+      - group.homeserver
+      - media_player.office
+      - group.phones
+      - group.home_alarm_group
+      - group.all_devices
+      - group.ubuntu_server_group
 tts:
   - platform: google
 
