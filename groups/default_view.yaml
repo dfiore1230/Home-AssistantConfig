@@ -6,3 +6,8 @@
       - group.all_devices
       - group.dave_iphone_group
       - group.internet_speed_group
+
+  homeserver:
+    view: yes
+    entities:
+      - group.ubuntu_server_group
