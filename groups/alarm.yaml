@@ -1,5 +1,5 @@
 alarm:
-  name: Home Alarm
+  name: Home Alarm Tab
   view: yes
   icon: mdi:alarm-light
   entities:
