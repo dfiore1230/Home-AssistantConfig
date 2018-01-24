@@ -1,12 +1,11 @@
 phones:
-  name: Phones
+  name: Cell Phones
   view: yes
   icon: mdi:cellphone-basic
   entities:
     - group.cell_phones_group
 
 cell_phones_group:
-  name: Cell Phones
   entities:
     - sensor.olive_battery_level
     - sensor.olive_battery_state

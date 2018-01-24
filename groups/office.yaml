@@ -1,12 +1,11 @@
 office:
-  name: Office View
+  name: Office
   view: yes
   icon: mdi:briefcase
   entities:
     - group.office_group
 
 office_group:
-  name: Office
   entities:
     - light.office_light_level
     - light.office_tv_light_level

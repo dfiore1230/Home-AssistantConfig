@@ -6,7 +6,6 @@
       - group.ubuntu_server_group
 
   ubuntu_server_group:
-    name: Ubuntu Server
     entities:
       - sensor.sab_status
       - sensor.average_load_1m
