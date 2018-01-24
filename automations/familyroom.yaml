@@ -1,0 +1,19 @@
+
+  - alias: Turn TV on
+    trigger:
+      platform: state
+      entity_id: input_boolean.tv
+      from: 'off'
+      to: 'on'
+    action:
+      service: scene.turn_on
+      entity_id: scene.tv_on_lighting
+  - alias: Turn TV off
+    trigger:
+      platform: state
+      entity_id: input_boolean.tv
+      from: 'on'
+      to: 'off'
+    action:
+      service: scene.turn_on
+      entity_id: scene.tv_off_lighting
