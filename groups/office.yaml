@@ -8,5 +8,5 @@ masterbedroom:
 masterbedroom_group:
   name: Office
   entities:
-    - zwave.office_light
-    - zwave.office_tv_light
+    - light.office_light_level
+    - light.office_tv_light_level
