@@ -3,13 +3,13 @@ input_slider:
     name: Office light
     initial: 100
     min: 0
-    max: 254
+    max: 100
     step: 1
     icon: mdi:brightness-6
   office_tv_light:
     name: Office TV Light
     initial: 100
     min: 0
-    max: 254
+    max: 100
     step: 1
     icon: mdi:brightness-6
