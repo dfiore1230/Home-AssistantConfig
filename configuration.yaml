@@ -56,21 +56,23 @@ logger:
 wink:
 cloud:
 alexa:
-  filter:
-    include_entities:
-      - media_player.sony_bravia_tv
-      - alarm_control_panel.home_alarm
-    include_domains:
-      - scenes
-    exclude_domains:
-      - script
-      - automation
-      - group
-      - lock
-      - media_player
-      - switch
-      - cover
-      - alert
+  expose_by_default: false
+  
+  # filter:
+  #   include_entities:
+  #     - media_player.sony_bravia_tv
+  #     - alarm_control_panel.home_alarm
+  #   include_domains:
+  #     - scenes
+  #   exclude_domains:
+  #     - script
+  #     - automation
+  #     - group
+  #     - lock
+  #     - media_player
+  #     - switch
+  #     - cover
+  #     - alert
 
 tts:
   - platform: google
