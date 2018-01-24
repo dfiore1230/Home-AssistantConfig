@@ -1,7 +1,7 @@
 
   - platform: template
     switches:
-      WatchTV:
+      watchtv:
         turn_on:
           service: scene.turn_on
           data:
