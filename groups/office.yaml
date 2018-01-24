@@ -10,3 +10,5 @@ office_group:
   entities:
     - light.office_light_level
     - light.office_tv_light_level
+    - zwave.office_tv_light
+    - zwave.office_light
