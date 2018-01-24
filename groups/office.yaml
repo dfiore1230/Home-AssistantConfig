@@ -6,6 +6,7 @@ office:
     - group.office_group
 
 office_group:
+  name: Office Lights
   entities:
     - light.office_light_level
     - light.office_tv_light_level
