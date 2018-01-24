@@ -1,0 +1,12 @@
+masterbedroom:
+  name: Office View
+  view: yes
+  icon: mdi:briefcase
+  entities:
+    - group.ofice_group
+
+masterbedroom_group:
+  name: Office
+  entities:
+    - zwave.office_light
+    - zwave.office_tv_light
