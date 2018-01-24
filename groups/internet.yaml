@@ -1,12 +1,11 @@
 internet:
-  name: Internet
+  name: Internet Speed
   view: yes
   icon: mdi:wifi
   entities:
     - group.internet_speed_group
 
 internet_speed_group:
-  name: Internet Speed
   entities:
     - sensor.external_ip
     - sensor.speedtest_download
