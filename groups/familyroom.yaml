@@ -12,13 +12,3 @@ familyroom_group:
   entities:
     - media_player.sony_bravia_tv
     - switch.livingroom_lamp
-
-tv_on_lights_on:
-  entities:
-    - switch.livingroom_lamp
-tv_on_lights_off:
-  entities:
-    - switch.livingroom_lamp
-tv_off_lights_off:
-  entities:
-    - switch.livingroom_lamp
