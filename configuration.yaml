@@ -82,3 +82,4 @@ sensor: !include_dir_merge_list sensors
 scene: !include_dir_merge_named scenes
 automation: !include_dir_merge_named automations
 switch: !include_dir_merge_named switches
+input_boolean: !include_dir_merge_named input_booleans
