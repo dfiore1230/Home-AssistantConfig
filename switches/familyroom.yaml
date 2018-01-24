@@ -1,8 +1,12 @@
 
   - platform: template
     switches:
-      watchtv:
+      tv:
+        friendly_name: 'Family Room TV'
+        value_template: "{{ is_state('group.familyroom_group', 'on ') }}"
         turn_on:
-          service: scene.turn_on
-          data:
-            entity_id: scene.watchtv
+          service: switch.turn_on
+          entity_id: group.familyroom_group
+        turn_off:
+          service: switch.turn_off
+          entity_id: group.familyroom_group
