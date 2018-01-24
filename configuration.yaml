@@ -80,4 +80,4 @@ group: !include_dir_merge_named groups
 intent_script: !include_dir_merge_named intentscripts
 media_player: !include_dir_merge_named media_players
 sensor: !include_dir_merge_list sensors
-scenes: !include_dir_merge_named scenes
+scene: !include_dir_merge_named scenes
