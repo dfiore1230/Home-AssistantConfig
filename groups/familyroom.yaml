@@ -1,0 +1,11 @@
+familyroom:
+  name: Family Room View
+  view: yes
+  icon: mdi:television-classic
+  entities:
+    - group.familyroom_group
+
+familyroom_group:
+  name: Family Room
+  entities:
+    - media_player.sony_bravia_tv
