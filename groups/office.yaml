@@ -1,11 +1,11 @@
-masterbedroom:
+office:
   name: Office View
   view: yes
   icon: mdi:briefcase
   entities:
-    - group.ofice_group
+    - group.office_group
 
-masterbedroom_group:
+office_group:
   name: Office
   entities:
     - light.office_light_level
