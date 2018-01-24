@@ -1,0 +1,12 @@
+masterbedroom:
+  name: Master Bedroom View
+  view: yes
+  icon: mdi:sleep
+  entities:
+    - group.masterbedroom_group
+
+masterbedroom_group:
+  name: Master Bedroom
+  entities:
+    - media_player.master_bedroom
+    - media_player.un32eh5300_un32eh5300
