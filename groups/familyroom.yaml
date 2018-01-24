@@ -4,9 +4,6 @@ familyroom:
   icon: mdi:television-classic
   entities:
     - group.familyroom_group
-    - group.tv_on_lights_on
-    - group.tv_on_lights_off
-    - group.tv_off_lights_off
 
 familyroom_group:
   entities:
