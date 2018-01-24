@@ -36,6 +36,7 @@ updater:
 
 discovery:
   ignore:
+    - plex
 
 history:
 
