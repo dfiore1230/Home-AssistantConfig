@@ -4,4 +4,4 @@
     icon: mdi:home
     entities:
       - group.all_devices
-      - zwave._
+      - zwave.aeotec_zw090_zstick_gen5_us
