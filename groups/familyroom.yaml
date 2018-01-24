@@ -9,3 +9,4 @@ familyroom_group:
   name: Family Room
   entities:
     - media_player.sony_bravia_tv
+    - switch.livingroom_lamp
