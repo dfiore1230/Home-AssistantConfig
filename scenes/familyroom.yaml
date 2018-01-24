@@ -1,8 +1,7 @@
 
-  - name: Watch TV
+  - name: WatchTV
     entities:
       switch.livingroom_lamp:
         state: on
       media_player.sony_bravia_tv:
         state:: on
-  
