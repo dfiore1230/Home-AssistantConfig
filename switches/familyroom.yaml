@@ -1,9 +1,8 @@
-switch:
+
   - platform: template
     switches:
       WatchTV:
         turn_on:
           service: scene.turn_on
           data:
-            entity_id: scene.WatchTV
-            
+            entity_id: scene.watchtv
