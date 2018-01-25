@@ -81,7 +81,7 @@ def setup_platform(hass, config, add_devices, discovery_info=None):
     ip_addr = socket.gethostbyname(host)
     if ip_addr not in known_devices:
         known_devices.add(ip_addr)
-        add_devices([SamsungTVDevice(host, port, name, timeout, mac, on_action)])
+        add_devices([SamsungTVDevice(host, port, name, timeout, mac, on_action)]) #not sure what the fuck im doing here -dave
         _LOGGER.info("Samsung TV %s:%d added as '%s'", host, port, name)
     else:
         _LOGGER.info("Ignoring duplicate Samsung TV %s:%d", host, port)
