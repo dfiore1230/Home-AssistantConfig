@@ -25,6 +25,7 @@ REQUIREMENTS = ['samsungctl==0.6.0', 'wakeonlan==0.2.2']
 _LOGGER = logging.getLogger(__name__)
 
 CONF_TIMEOUT = 'timeout'
+CONF_ON_ACTION = 'turn_on_action'
 
 DEFAULT_NAME = 'Samsung TV Remote'
 DEFAULT_PORT = 55000
@@ -41,6 +42,8 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
     vol.Optional(CONF_NAME, default=DEFAULT_NAME): cv.string,
     vol.Optional(CONF_PORT, default=DEFAULT_PORT): cv.port,
     vol.Optional(CONF_TIMEOUT, default=DEFAULT_TIMEOUT): cv.positive_int,
+    vol.Optional(CONF_ON_ACTION): cv.SCRIPT_SCHEMA,
+
 })
 
 
@@ -59,6 +62,7 @@ def setup_platform(hass, config, add_devices, discovery_info=None):
         name = config.get(CONF_NAME)
         mac = config.get(CONF_MAC)
         timeout = config.get(CONF_TIMEOUT)
+        turn_on_action = config.get(CONF_ON_ACTION)
     elif discovery_info is not None:
         tv_name = discovery_info.get('name')
         model = discovery_info.get('model_name')
@@ -76,7 +80,7 @@ def setup_platform(hass, config, add_devices, discovery_info=None):
     ip_addr = socket.gethostbyname(host)
     if ip_addr not in known_devices:
         known_devices.add(ip_addr)
-        add_devices([SamsungTVDevice(host, port, name, timeout, mac)])
+        add_devices([SamsungTVDevice(host, port, name, timeout, mac, hass, turn_on_action)])
         _LOGGER.info("Samsung TV %s:%d added as '%s'", host, port, name)
     else:
         _LOGGER.info("Ignoring duplicate Samsung TV %s:%d", host, port)
@@ -85,11 +89,12 @@ def setup_platform(hass, config, add_devices, discovery_info=None):
 class SamsungTVDevice(MediaPlayerDevice):
     """Representation of a Samsung TV."""
 
-    def __init__(self, host, port, name, timeout, mac):
+    def __init__(self, host, port, name, timeout, mac, on_action):
         """Initialize the Samsung device."""
         from samsungctl import exceptions
         from samsungctl import Remote
         from wakeonlan import wol
+        self._on_script = Script(hass, on_action) if on_action else None
         # Save a reference to the imported classes
         self._exceptions_class = exceptions
         self._remote_class = Remote
@@ -233,8 +238,6 @@ class SamsungTVDevice(MediaPlayerDevice):
         self.send_key('KEY_REWIND')
 
     def turn_on(self):
-        """Turn the media player on."""
-        if self._mac:
-            self._wol.send_magic_packet(self._mac)
-        else:
-            self.send_key('KEY_POWERON')
+        """Turn on the media player."""
+        if self._on_script:
+            self._on_script.run()
