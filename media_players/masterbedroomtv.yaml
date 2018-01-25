@@ -4,5 +4,5 @@ mac: c4:73:1e:2d:2c:9a
 turn_on_action:
   service: media_player.select_source
   data:
-    entity_id: media_player.master_bedroom_tv
+    entity_id: media_player.master_bedroom
     source: Home
