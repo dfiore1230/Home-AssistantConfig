@@ -76,7 +76,7 @@ def setup_platform(hass, config, add_devices, discovery_info=None):
         _LOGGER.warning("Cannot determine device")
         return
 
-    # Only add a device once, so discovered devices do not override manual
+    # Only add a device once, so discovered devices do not override manual 
     # config.
     ip_addr = socket.gethostbyname(host)
     if ip_addr not in known_devices:
