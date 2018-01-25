@@ -1,6 +1,8 @@
 """
 Support for interface with an Samsung TV.
 
+-- modified by @dfiore to include
+
 For more details about this platform, please refer to the documentation at
 https://home-assistant.io/components/media_player.samsungtv/
 """
@@ -43,7 +45,6 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
     vol.Optional(CONF_PORT, default=DEFAULT_PORT): cv.port,
     vol.Optional(CONF_TIMEOUT, default=DEFAULT_TIMEOUT): cv.positive_int,
     vol.Optional(CONF_ON_ACTION): cv.SCRIPT_SCHEMA,
-
 })
 
 
