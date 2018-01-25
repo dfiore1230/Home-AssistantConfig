@@ -35,7 +35,7 @@ KNOWN_DEVICES_KEY = 'samsungtv_known_devices'
 
 SUPPORT_SAMSUNGTV = SUPPORT_PAUSE | SUPPORT_VOLUME_STEP | \
     SUPPORT_VOLUME_MUTE | SUPPORT_PREVIOUS_TRACK | \
-    SUPPORT_NEXT_TRACK | SUPPORT_TURN_OFF | SUPPORT_PLAY
+    SUPPORT_NEXT_TRACK | SUPPORT_TURN_OFF | SUPPORT_PLAY | SUPPORT_TURN_ON
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
     vol.Required(CONF_HOST): cv.string,
@@ -76,7 +76,7 @@ def setup_platform(hass, config, add_devices, discovery_info=None):
         _LOGGER.warning("Cannot determine device")
         return
 
-    # Only add a device once, so discovered devices do not override manual 
+    # Only add a device once, so discovered devices do not override manual
     # config.
     ip_addr = socket.gethostbyname(host)
     if ip_addr not in known_devices:
