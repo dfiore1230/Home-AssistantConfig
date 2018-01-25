@@ -63,7 +63,6 @@ def setup_platform(hass, config, add_devices, discovery_info=None):
         mac = config.get(CONF_MAC)
         timeout = config.get(CONF_TIMEOUT)
         turn_on_action = config.get(CONF_ON_ACTION)
-        on_action = on_action
     elif discovery_info is not None:
         tv_name = discovery_info.get('name')
         model = discovery_info.get('model_name')
@@ -81,6 +80,7 @@ def setup_platform(hass, config, add_devices, discovery_info=None):
     ip_addr = socket.gethostbyname(host)
     if ip_addr not in known_devices:
         known_devices.add(ip_addr)
+        on_action(on_action)
         add_devices([SamsungTVDevice(host, port, name, timeout, mac, on_action)]) #not sure what the fuck im doing here -dave
         _LOGGER.info("Samsung TV %s:%d added as '%s'", host, port, name)
     else:
