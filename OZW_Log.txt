@@ -557,3 +557,29 @@
 2018-02-07 10:04:21.509 Info,          Node query processing complete.
 2018-02-07 10:04:21.509 Detail, Node003, Notification: NodeQueriesComplete
 2018-02-07 10:04:21.512 Detail, contrlr, Notification: AllNodesQueried
+2018-02-07 10:11:29.161 Info, mgr,     Manager::WriteConfig completed for driver with home ID of 0xe8b57acb
+2018-02-07 10:11:30.162 Info, mgr,     Driver for controller /dev/ttyACM1 pending removal
+2018-02-07 10:11:30.162 Detail, Notification: DriverRemoved
+2018-02-07 10:11:30.162 Always, ***************************************************************************
+2018-02-07 10:11:30.162 Always, *********************  Cumulative Network Statistics  *********************
+2018-02-07 10:11:30.162 Always, *** General
+2018-02-07 10:11:30.162 Always, Driver run time: . .  . 0 days, 0 hours, 7 minutes
+2018-02-07 10:11:30.162 Always, Frames processed: . . . . . . . . . . . . . . . . . . . . 47
+2018-02-07 10:11:30.162 Always, Total messages successfully received: . . . . . . . . . . 47
+2018-02-07 10:11:30.162 Always, Total Messages successfully sent: . . . . . . . . . . . . 26
+2018-02-07 10:11:30.162 Always, ACKs received from controller:  . . . . . . . . . . . . . 26
+2018-02-07 10:11:30.162 Always, *** Errors
+2018-02-07 10:11:30.162 Always, Unsolicited messages received while waiting for ACK:  . . 0
+2018-02-07 10:11:30.162 Always, Reads aborted due to timeouts:  . . . . . . . . . . . . . 0
+2018-02-07 10:11:30.162 Always, Bad checksum errors:  . . . . . . . . . . . . . . . . . . 0
+2018-02-07 10:11:30.162 Always, CANs received from controller:  . . . . . . . . . . . . . 0
+2018-02-07 10:11:30.162 Always, NAKs received from controller:  . . . . . . . . . . . . . 0
+2018-02-07 10:11:30.162 Always, Out of frame data flow errors:  . . . . . . . . . . . . . 0
+2018-02-07 10:11:30.162 Always, Messages retransmitted: . . . . . . . . . . . . . . . . . 0
+2018-02-07 10:11:30.162 Always, Messages dropped and not delivered: . . . . . . . . . . . 0
+2018-02-07 10:11:30.162 Always, ***************************************************************************
+2018-02-07 10:11:30.162 Detail, WriteMsg Wait Timeout m_currentMsg=00000000
+2018-02-07 10:11:32.172 Info, mgr,     Driver for controller /dev/ttyACM1 removed
+2018-02-07 10:11:33.173 Error, mgr,     Manager::GetDriver failed - Home ID 0xe8b57acb is unknown
+2018-02-07 10:11:33.173 Warning, Exception: Manager.cpp:373 - 100 - Invalid HomeId passed to GetDriver
+2018-02-07 10:11:33.173 Info, mgr,     GetSendQueueCount() failed - _homeId -390759733 not found
