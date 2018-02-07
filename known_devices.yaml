@@ -7,12 +7,3 @@ iphone:
   picture:
   track: true
   vendor:
-
-olive:
-  hide_if_away: false
-  icon:
-  mac:
-  name: olive
-  picture:
-  track: true
-  vendor:
