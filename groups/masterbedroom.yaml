@@ -7,5 +7,5 @@ masterbedroom:
 
 masterbedroom_group:
   entities:
-    - media_player.master_bedroom
-    - media_player.un32eh5300_un32eh5300
+    # Add in new ROKU TV HERE
+    #- media_player.master_bedroom
