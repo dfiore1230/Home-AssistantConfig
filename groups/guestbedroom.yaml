@@ -8,3 +8,4 @@ guestbedroom:
 guestbedroom_group:
   entities:
     - media_player.guest_room
+    - light.guest_bedroom_lights_level
