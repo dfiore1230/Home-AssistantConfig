@@ -8,7 +8,7 @@ office:
 office_group:
   name: Office Lights
   entities:
-    - light.office_light_level
-    - light.office_tv_light_level
+    - light.office_desk_lights
+    - light.office_tv_lights
     - media_player.office_sonos
     - media_player.office_roku
