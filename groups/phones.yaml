@@ -7,6 +7,4 @@ phones:
 
 cell_phones_group:
   entities:
-    - sensor.olive_battery_level
-    - sensor.olive_battery_state
-    - device_tracker.olive
+    - device_tracker.iphone
