@@ -4,5 +4,5 @@ mac: 10:4f:a8:26:c9:02
 psk: '1234'
 amp: False
 android: True
-appfilter:
+#appfilter:
 sourcefilter:

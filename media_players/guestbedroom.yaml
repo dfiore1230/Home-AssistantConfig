@@ -1,6 +1,6 @@
 platform: samsungtv
-host: 172.16.42.114
-mac: c4:73:1e:2d:2c:9a
+host: 172.16.42.146
+mac: 1c:5a:3e:1c:b0:8a
 #turn_on_action:
   #service: media_player.select_source
   #data:
