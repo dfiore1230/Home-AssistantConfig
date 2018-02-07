@@ -7,5 +7,4 @@ guestbedroom:
 
 guestbedroom_group:
   entities:
-    # Add in new ROKU TV HERE
-    #- media_player.master_bedroom
+    - media_player.guest_room
