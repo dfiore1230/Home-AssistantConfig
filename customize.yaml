@@ -15,7 +15,6 @@ sensor.speedtest_upload:
   friendly_name: Upload Rate
 media_player.office_3:
   friendly_name: Office Sonos
-media_player.office_2:
 media_player.family_room:
   friendly_name: Family Room Sonos
 media_player.kitchen:
