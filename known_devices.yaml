@@ -1,9 +1,9 @@
 
-olive:
+iphone:
   hide_if_away: false
   icon:
   mac:
-  name: olive
+  name: Davids iPhone
   picture:
   track: true
   vendor:
