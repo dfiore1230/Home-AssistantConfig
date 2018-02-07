@@ -6,12 +6,7 @@ Master Bedroom
   Light Workaround (smart switch + hue bulbs + new fixture)
 
 Office
-  Hardwire TV
   Add configuration for samsungtv
-
-Guest Bedroom
-  Lights
-  TV
 
 Coding
   Add app control to braviarc_psk
