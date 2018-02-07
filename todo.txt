@@ -16,3 +16,4 @@ Random ToDos
   Setup scenes
   HomeBridge SUPPORT
   Lizas iPhone Tracking
+  Fix Roku's

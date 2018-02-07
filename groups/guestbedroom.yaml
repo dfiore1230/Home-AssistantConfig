@@ -5,8 +5,13 @@ guestbedroom:
   entities:
     - group.guestbedroom_group
 
-guestbedroom_group:
+guestbedroom_lights_group:
+  name: Guest Bedroom Lights
   entities:
-    - media_player.samsung_tv_remote
-    - media_player.guest_room
     - light.guest_bedroom_lights_level
+
+guestbedroom_group:
+  name: Guest Bedroom
+  entities:
+      - media_player.samsung_tv_remote
+      - media_player.guest_room

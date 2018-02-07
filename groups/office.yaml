@@ -5,10 +5,13 @@ office:
   entities:
     - group.office_group
 
-office_group:
+office_lights_group:
   name: Office Lights
   entities:
     - light.office_tv_lights_level
     - light.office_desk_lights_level
+
+office_group:
+  name: Office Media
     - media_player.office
     - media_player.office_2
