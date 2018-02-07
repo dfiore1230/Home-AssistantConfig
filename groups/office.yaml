@@ -8,6 +8,7 @@ office:
 office_group:
   name: Office Lights
   entities:
-    - zwave.office_tv_lights
+    - light.office_desk_lights
+    - light.office_tv_lights
     - media_player.office_sonos
     - media_player.office_roku
