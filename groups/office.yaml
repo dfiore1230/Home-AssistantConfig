@@ -4,6 +4,8 @@ office:
   icon: mdi:briefcase
   entities:
     - group.office_group
+    - group.office_lights_group
+
 
 office_lights_group:
   name: Office Lights

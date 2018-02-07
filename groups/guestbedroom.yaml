@@ -4,6 +4,7 @@ guestbedroom:
   icon: mdi:account-star
   entities:
     - group.guestbedroom_group
+    - group.guestbedroom_lights_group
 
 guestbedroom_lights_group:
   name: Guest Bedroom Lights
