@@ -8,7 +8,7 @@ office:
 office_group:
   name: Office Lights
   entities:
-    - light.light.zooz_unknown_type1f02_id1f02_level_2
-    - light.light.zooz_unknown_type1f02_id1f02_level
+    - light.zooz_unknown_type1f02_id1f02_level_2
+    - light.zooz_unknown_type1f02_id1f02_level
     - media_player.office_sonos
     - media_player.office_roku
