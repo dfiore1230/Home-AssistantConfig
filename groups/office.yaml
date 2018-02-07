@@ -10,5 +10,5 @@ office_group:
   entities:
     - light.office_tv_lights_level
     - light.office_desk_lights_level
-    - media_player.office_sonos
-    - media_player.office_roku
+    - media_player.office
+    - media_player.office_2
