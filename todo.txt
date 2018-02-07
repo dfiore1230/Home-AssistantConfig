@@ -1,15 +1,23 @@
 # Things to add to Hassio
 
-1. DONE -Notifications on ios-
-2. Power on for MasterBedroom Samsung TV
-3. Hardwire Office tv and get it working + turn on
-4. Complete Wink Integration
-5. Add app control to braviarc_psk
-6. PARTIAL -UI Setup- // Need to add tabs to clean up
-7. DONE -Group rooms-
-8. Setup scenes
-9. GE Zwave switch control
-10. DONE -sabnzbd monitoring-
-11. HomeBridge SUPPORT
-12. DONE -ACUPS monitor-
-13. lizas iPhone
+Master Bedroom
+  Ethernet for TV (future state when walls apart)
+  Roku TV Setup
+  Light Workaround (smart switch + hue bulbs + new fixture)
+
+Office
+  Hardwire TV
+  Add configuration for samsungtv
+
+Guest Bedroom
+  Lights
+  TV
+
+Coding
+  Add app control to braviarc_psk
+  Add Power On Via secondary command to samsungtv
+
+Random ToDos
+  Setup scenes
+  HomeBridge SUPPORT
+  Lizas iPhone Tracking
