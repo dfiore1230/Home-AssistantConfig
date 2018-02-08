@@ -22,3 +22,7 @@ media_player.roku_4124cw014265:
   friendly_name: Basement Roku
 media_player.guest_room:
   friendly_name: Guest Bedroom Roku
+media_player.office:
+  friendly_name: Office Roku
+media_player.office_2:
+  friendly_name: Office Sonos
