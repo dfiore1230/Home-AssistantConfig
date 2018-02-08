@@ -37,6 +37,8 @@ updater:
 discovery:
   ignore:
     - plex_mediaserver
+    - sonos
+    - roku
 
 history:
 
