@@ -16,7 +16,7 @@ sensor.speedtest_upload:
 media_player.office_3:
   friendly_name: Office Sonos
 media_player.office_2:
-  friendly_name: Office x
+  friendly_name: Office Sonos
 media_player.family_room:
   friendly_name: Family Room Sonos
 media_player.kitchen:
@@ -27,3 +27,7 @@ media_player.kitchen_2:
   friendly_name: Kitchen Roku Plex
 media_player.master_bedroom:
   friendly_name: Master Bedroom Roku
+media_player.roku_4124cw014265:
+  friendly_name: Basement Roku
+media_player.guest_room:
+  friendly_name: Guest Bedroom Roku
