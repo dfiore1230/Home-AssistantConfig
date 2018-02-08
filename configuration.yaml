@@ -37,7 +37,6 @@ updater:
 discovery:
   ignore:
     - plex_mediaserver
-    - roku
 
 history:
 
