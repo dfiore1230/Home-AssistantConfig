@@ -14,10 +14,6 @@ media_player.kitchen:
   friendly_name: Kitchen Roku
 media_player.living_room:
   friendly_name: Living Room Sonos
-media_player.kitchen_2:
-  friendly_name: Kitchen Roku Plex
-media_player.master_bedroom:
-  friendly_name: Master Bedroom Roku
 media_player.roku_4124cw014265:
   friendly_name: Basement Roku
 media_player.guest_room:
