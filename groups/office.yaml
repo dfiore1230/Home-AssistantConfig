@@ -15,4 +15,3 @@ office_lights_group:
 office_group:
   name: Office Media
     - media_player.office
-    - media_player.office_2
