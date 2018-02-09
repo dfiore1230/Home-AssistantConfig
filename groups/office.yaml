@@ -1,5 +1,5 @@
-office:
-  name: Office
+office_combined_group:
+  name: Combined Office
   view: yes
   icon: mdi:briefcase
   entities:
@@ -12,6 +12,6 @@ office_lights_group:
     - light.office_tv_lights_level
     - light.office_desk_lights_level
 
-office_group:
+office_media_group:
   name: Office Media
     - media_player.office
