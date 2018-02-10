@@ -1,5 +1,5 @@
 guestbedroom_combined_group:
-  name: Guest Bedroom
+  name: Combined Guest Bedroom
   view: yes
   icon: mdi:account-star
   entities:

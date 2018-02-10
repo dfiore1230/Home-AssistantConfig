@@ -1,5 +1,5 @@
 masterbedroom_combined_group:
-  name: Master Bedroom
+  name: Combined Master Bedroom
   view: yes
   icon: mdi:sleep
   entities:
