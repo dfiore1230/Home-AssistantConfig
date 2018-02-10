@@ -1,11 +1,17 @@
-masterbedroom:
+masterbedroom_combined_group:
   name: Master Bedroom
   view: yes
   icon: mdi:sleep
   entities:
-    - group.masterbedroom_group
+    - group.masterbedroom_media_group
+    - group.masterbedroom_lights_group
 
-masterbedroom_group:
+masterbedroom_media_group:
+  entities:
+    # Add in new ROKU TV HERE
+    #- media_player.master_bedroom
+
+masterbedroom_lights_group:
   entities:
     # Add in new ROKU TV HERE
     #- media_player.master_bedroom

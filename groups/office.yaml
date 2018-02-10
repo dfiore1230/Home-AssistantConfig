@@ -3,7 +3,7 @@ office_combined_group:
   view: yes
   icon: mdi:briefcase
   entities:
-    - group.office_group
+    - group.office_media_group
     - group.office_lights_group
 
 office_lights_group:
