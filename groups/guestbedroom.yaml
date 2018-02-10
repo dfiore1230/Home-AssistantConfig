@@ -1,9 +1,9 @@
-guestbedroom:
+guestbedroom_combined_group:
   name: Guest Bedroom
   view: yes
   icon: mdi:account-star
   entities:
-    - group.guestbedroom_group
+    - group.guestbedroom_media_group
     - group.guestbedroom_lights_group
 
 guestbedroom_lights_group:
@@ -11,7 +11,7 @@ guestbedroom_lights_group:
   entities:
     - light.guest_bedroom_lights_level
 
-guestbedroom_group:
+guestbedroom_media_group:
   name: Guest Bedroom
   entities:
       - media_player.samsung_tv_remote

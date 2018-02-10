@@ -1,11 +1,15 @@
-familyroom:
+familyroom_combined_group:
   name: Family Room
   view: yes
   icon: mdi:television-classic
   entities:
-    - group.familyroom_group
+    - group.familyroom_lights_group
+    - group.familyroom_media_group
 
-familyroom_group:
+familyroom_lights_group:
+  entities:
+    - switch.livingroom_lamp
+
+familyroom_media_group:
   entities:
     - media_player.sony_bravia_tv
-    - switch.livingroom_lamp
