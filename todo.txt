@@ -8,6 +8,10 @@ Master Bedroom
 Office
   Add configuration for samsungtv
 
+Basement
+  Roku
+  Vizio TV
+
 Coding
   Add app control to braviarc_psk
   Add Power On Via secondary command to samsungtv
@@ -16,4 +20,4 @@ Random ToDos
   Setup scenes
   HomeBridge SUPPORT
   Lizas iPhone Tracking
-  Fix Roku's
+  Rewire 2nd and 3rd floor to new patch panel and switch

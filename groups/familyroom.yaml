@@ -1,5 +1,5 @@
 familyroom_combined_group:
-  name: Family Room
+  name: Combined Family Room
   view: yes
   icon: mdi:television-classic
   entities:
