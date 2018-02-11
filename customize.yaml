@@ -22,3 +22,5 @@ media_player.office:
   friendly_name: Office Roku
 media_player.office_2:
   friendly_name: Office Sonos
+media_player.samsung_tv_remote:
+  friendly_name: Guest Bedroom TV
