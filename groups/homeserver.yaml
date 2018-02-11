@@ -8,25 +8,29 @@
   ubuntu_server_group:
     entities:
       - sensor.sab_status
-      - sensor.average_load_1m
-      - sensor.average_load_5m
-      - sensor.average_load_15m
-      - sensor.cpu_used
-      - sensor.ram_used
-      - sensor.disk_used_
-      - sensor.since_last_boot
+      - sensor.external_ip
+      - sensor.speedtest_download
+      - sensor.speedtest_ping
+      - sensor.speedtest_upload
+      - sensor.disk_use_percent_
       - sensor.last_boot
-      - sensor.received_docker0
-      - sensor.sent_docker0
-      - sensor.received_hassio
-      - sensor.sent_hassio
-      - sensor.received_p6p1
-      - sensor.sent_p6p1
-      - sensor.ubuntu_server_ups_manufacturer
-      - sensor.ubuntu_server_ups_model
-      - sensor.ubuntu_server_ups_manufacture_date
-      - sensor.ubuntu_server_ups_load
-      - sensor.ubuntu_server_ups_nominal_real_power
-      - sensor.ubuntu_server_ups_input_voltage
+      - sensor.load_15m
+      - sensor.load_1m
+      - sensor.load_5m
+      - sensor.memory_use_percent
+      - sensor.network_in_docker0
+      - sensor.network_in_hassio
+      - sensor.network_in_p6p1
+      - sensor.network_out_docker0
+      - sensor.network_out_hassio
+      - sensor.network_out_p6p1
+      - sensor.processor_use
+      - sensor.since_last_boot
       - sensor.ubuntu_server_ups_battery_charge
       - sensor.ubuntu_server_ups_battery_runtime
+      - sensor.ubuntu_server_ups_input_voltage
+      - sensor.ubuntu_server_ups_load
+      - sensor.ubuntu_server_ups_manufacture_date
+      - sensor.ubuntu_server_ups_manufacturer
+      - sensor.ubuntu_server_ups_model
+      - sensor.ubuntu_server_ups_nominal_real_power
