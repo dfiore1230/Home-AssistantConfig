@@ -1,7 +1,7 @@
   - platform: braviatv_psk
     name: Family Room TV
     host: 172.16.42.127
-    psk: 1234
+    psk: '1234'
     mac: 10:4f:a8:26:c9:02
     amp: False
     android: True
