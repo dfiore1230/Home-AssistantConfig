@@ -2,16 +2,6 @@
     resources:
       - type: disk_use_percent
         arg: "/"
-      - type: disk_use_percent
-        arg: "/data/TimeMachine/dfiore"
-      - type: disk_use_percent
-        arg: /data/Temp
-      - type: disk_use_percent
-        arg: /data/VMs
-      - type: disk_use_percent
-        arg: /data/Media
-      - type: disk_use_percent
-        arg: /data/TimeMachine/lfiore
       - type: memory_use_percent
       - type: load_1m
       - type: load_5m
