@@ -8,8 +8,8 @@ familyroom_combined_group:
 
 familyroom_lights_group:
   entities:
-    - switch.livingroom_lamp
+    - switch.family_room_lamp
 
 familyroom_media_group:
   entities:
-    - media_player.sony_bravia_tv
+    
