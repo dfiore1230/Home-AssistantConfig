@@ -6,11 +6,11 @@ Master Bedroom
   Light Workaround (smart switch + hue bulbs + new fixture)
 
 Office
-  Add configuration for samsungtv
+  Add configuration for samsungtv //Seemingly not supported
 
 Basement
-  Roku
-  Vizio TV
+  Roku // Disabled ROKU support
+  Vizio TV // Seemingly not supported
 
 Coding
   Add app control to braviarc_psk
