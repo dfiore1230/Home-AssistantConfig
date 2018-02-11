@@ -21,3 +21,6 @@ Random ToDos
   HomeBridge SUPPORT
   Lizas iPhone Tracking
   Rewire 2nd and 3rd floor to new patch panel and switch
+  fix zwave dimmer switch ranges
+  fix location for Tracking // look into owntracks
+  set things to hide from alexa etc
