@@ -3,6 +3,7 @@
 Master Bedroom
   Ethernet for TV (future state when walls apart)
   Roku TV Setup
+    https://community.home-assistant.io/t/roku-tv-support/15406/10
   Light Workaround (smart switch + hue bulbs + new fixture)
 
 Office
@@ -24,3 +25,4 @@ Random ToDos
   fix zwave dimmer switch ranges
   fix location for Tracking // look into owntracks
   set things to hide from alexa etc
+  fix sab_status
