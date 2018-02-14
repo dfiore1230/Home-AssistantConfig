@@ -4,20 +4,12 @@ Master Bedroom
   Ethernet for TV (future state when walls apart)
   Roku TV Setup
     https://community.home-assistant.io/t/roku-tv-support/15406/10
-  Light Workaround (smart switch + hue bulbs + new fixture)
 
 Office
-  Add configuration for samsungtv //Seemingly not supported
-
-Basement
-  Roku // Disabled ROKU support
-  Vizio TV // Seemingly not supported
-
-Coding
-  Add app control to braviarc_psk
-  Add Power On Via secondary command to samsungtv
+  rPi tv workaround
 
 Random ToDos
+  hide devices from alexa
   Setup scenes
   HomeBridge SUPPORT
   Lizas iPhone Tracking
@@ -26,3 +18,6 @@ Random ToDos
   fix location for Tracking // look into owntracks
   set things to hide from alexa etc
   fix sab_status
+  Coding
+    Add app control to braviarc_psk
+    Add Power On Via secondary command to samsungtv

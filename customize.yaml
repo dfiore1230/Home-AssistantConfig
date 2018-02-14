@@ -1,7 +1,3 @@
-media_player.bravia_4k_2015:
-  hidden: true
-media_player.sony_bravia_tv:
-  friendly_name: Family Room TV
 sensor.speedtest_download:
   friendly_name: Download Rate
 sensor.speedtest_ping:
@@ -10,23 +6,13 @@ sensor.speedtest_upload:
   friendly_name: Upload Rate
 media_player.family_room:
   friendly_name: Family Room Sonos
-media_player.kitchen:
-  friendly_name: Kitchen Roku
 media_player.living_room:
   friendly_name: Living Room Sonos
-media_player.roku_4124cw014265:
-  friendly_name: Basement Roku
 media_player.guest_room:
-  friendly_name: Guest Bedroom Roku
-media_player.office:
-  friendly_name: Office Roku
-media_player.office_2:
   friendly_name: Office Sonos
 media_player.samsung_tv_remote:
   friendly_name: Guest Bedroom TV
 light.level_2:
   friendly_name: Master Bedroom Sconce Bulb
-  new_entity_id: light.master_bedroom_sconce
 light.level:
   friendly_name: Master Bedroom Lights
-  new_entity_id: light.master_bedroom_switch
