@@ -24,3 +24,9 @@ media_player.office_2:
   friendly_name: Office Sonos
 media_player.samsung_tv_remote:
   friendly_name: Guest Bedroom TV
+light.level_2:
+  friendly_name: Master Bedroom Sconce Bulb
+  new_entity_id: light.master_bedroom_sconce
+light.level:
+  friendly_name: Master Bedroom Lights
+  new_entity_id: light.masterbedroom_switch

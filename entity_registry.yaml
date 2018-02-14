@@ -1,0 +1,15 @@
+light.office_tv_lights_level:
+  platform: zwave
+  unique_id: 2-72057594076299265
+light.office_desk_lights_level:
+  platform: zwave
+  unique_id: 3-72057594093076481
+light.guest_bedroom_lights_level:
+  platform: zwave
+  unique_id: 4-72057594109853697
+light.level:
+  platform: zwave
+  unique_id: 5-72057594126630913
+light.level_2:
+  platform: zwave
+  unique_id: 6-72057594143408129
