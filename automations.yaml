@@ -1,4 +1,5 @@
-- alias: Turn On Master Bedroom Lights
+- id: MBR_ON
+  alias: Turn On Master Bedroom Lights
   trigger:
     platform: state
     entity_id: light.master_bedroom_switch
@@ -8,7 +9,8 @@
     service: homeassistant.turn_off
     entity_id: light.level_2
 
-- alias: Turn Off Master Bedroom Lights
+- id: MBR_OFF
+  alias: Turn Off Master Bedroom Lights
   trigger:
     platform: state
     entity_id: light.master_bedroom_switch
