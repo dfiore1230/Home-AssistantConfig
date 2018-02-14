@@ -6,7 +6,7 @@
     to: 'off'
   action:
     service: homeassistant.turn_off
-    entity_id: light.master_bedroom_sconce
+    entity_id: light.level_2
 
 - alias: Turn Off Master Bedroom Lights
   trigger:
@@ -16,4 +16,4 @@
     to: 'on'
   action:
     service: homeassistant.turn_on
-    entity_id: light.master_bedroom_sconce
+    entity_id: light.level_2
