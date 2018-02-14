@@ -2,22 +2,18 @@
   trigger:
     platform: state
     entity_id: light.master_bedroom_switch
-    from: 'off'
-    to: 'on'
+    from: 'on'
+    to: 'off'
   action:
-    service: light.turn_on
-    data:
-      entity_id: light.master_bedroom_sconce
-      brightness: 255
+    service: homeassistant.turn_off
+    entity_id: light.master_bedroom_sconce
 
 - alias: Turn Off Master Bedroom Lights
   trigger:
     platform: state
     entity_id: light.master_bedroom_switch
-    from: 'om'
-    to: 'off'
+    from: 'off'
+    to: 'on'
   action:
-    service: light.turn_off
-    data:
-      entity_id: light.master_bedroom_sconce
-      brightness: 0
+    service: homeassistant.turn_on
+    entity_id: light.master_bedroom_sconce
