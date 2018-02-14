@@ -1,7 +1,7 @@
 - alias: Turn On Master Bedroom Lights
   trigger:
     platform: state
-    entity_id: light.masterbedroom_switch
+    entity_id: light.master_bedroom_switch
     from: 'off'
     to: 'on'
   action:
@@ -11,12 +11,12 @@
       brightness: 255
   condition:
    - platform: state
-     entity_id: light.masterbedroom_switch
+     entity_id: light.master_bedroom_switch
      state: 'off'
 - alias: Turn Off Master Bedroom Lights
   trigger:
     platform: state
-    entity_id: light.masterbedroom_switch
+    entity_id: light.master_bedroom_switch
     from: 'om'
     to: 'off'
   action:
@@ -26,5 +26,5 @@
       brightness: 0
   condition:
    - platform: state
-     entity_id: light.masterbedroom_switch
+     entity_id: light.master_bedroom_switch
      state: 'on'

@@ -29,4 +29,4 @@ light.level_2:
   new_entity_id: light.master_bedroom_sconce
 light.level:
   friendly_name: Master Bedroom Lights
-  new_entity_id: light.masterbedroom_switch
+  new_entity_id: light.master_bedroom_switch
