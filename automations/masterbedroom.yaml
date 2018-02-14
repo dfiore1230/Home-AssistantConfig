@@ -9,10 +9,7 @@
     data:
       entity_id: light.master_bedroom_sconce
       brightness: 255
-  condition:
-   - platform: state
-     entity_id: light.master_bedroom_switch
-     state: 'off'
+
 - alias: Turn Off Master Bedroom Lights
   trigger:
     platform: state
@@ -24,7 +21,3 @@
     data:
       entity_id: light.master_bedroom_sconce
       brightness: 0
-  condition:
-   - platform: state
-     entity_id: light.master_bedroom_switch
-     state: 'on'
