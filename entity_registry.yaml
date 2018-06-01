@@ -1,15 +1,52 @@
 light.office_tv_lights_level:
+  name:
   platform: zwave
   unique_id: 2-72057594076299265
 light.office_desk_lights_level:
+  name:
   platform: zwave
   unique_id: 3-72057594093076481
 light.guest_bedroom_lights_level:
+  name:
   platform: zwave
   unique_id: 4-72057594109853697
 light.level:
+  name:
   platform: zwave
   unique_id: 5-72057594126630913
 light.level_2:
+  name:
   platform: zwave
   unique_id: 6-72057594143408129
+media_player.family_room:
+  name:
+  platform: cast
+  unique_id: cb8ab081-0871-1229-89fc-ceff5ed60570
+media_player.jacksons_bedroom:
+  name:
+  platform: cast
+  unique_id: 2b829e99-f4ac-9f06-18dc-ef81850e1a22
+zwave.aeotec_zw090_zstick_gen5_us:
+  name:
+  platform: zwave
+  unique_id: node-1
+zwave.office_tv_lights:
+  name:
+  platform: zwave
+  unique_id: node-2
+zwave.office_desk_lights:
+  name:
+  platform: zwave
+  unique_id: node-3
+zwave.guest_bedroom_lights:
+  name:
+  platform: zwave
+  unique_id: node-4
+zwave.master_bedroom_wall_sconce_switch:
+  name:
+  platform: zwave
+  unique_id: node-5
+zwave.master_bedroom_wall_sconce:
+  name:
+  platform: zwave
+  unique_id: node-6

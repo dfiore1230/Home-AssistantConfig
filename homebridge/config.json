@@ -1,0 +1,40 @@
+{
+  "bridge": {
+    "name": "Home Assistant",
+    "username": "90:2B:34:59:3A:4C",
+    "port": 51826,
+    "pin": "876-66-128"
+  },
+  "description": "Homebridge for Home Assistant",
+  "accessories": [],
+  "platforms": [
+    {
+      "platform": "HomeAssistant",
+      "name": "HomeAssistant",
+      "host": "https://dfiore.duckdns.org",
+      "password": "veedubs1@",
+      "default_visibility": "visible",
+      "supported_types": [
+        "automation",
+        "binary_sensor",
+        "climate",
+        "cover",
+        "device_tracker",
+        "fan",
+        "group",
+        "input_boolean",
+        "light",
+        "lock",
+        "media_player",
+        "remote",
+        "scene",
+        "script",
+        "sensor",
+        "switch",
+        "vacuum"
+      ],
+      "logging": true,
+      "verify_ssl": true
+    }
+  ]
+}

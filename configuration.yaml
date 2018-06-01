@@ -72,7 +72,6 @@ zwave:
 # Static Includes
 shell_command: !include shell_scripts.yaml
 alarm_control_panel: !include alarm_com.yaml
-device_tracker: !include device_tracker.yaml
 automation: !include automations.yaml
 
 # Merge Includes List
