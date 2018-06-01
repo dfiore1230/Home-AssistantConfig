@@ -9,8 +9,8 @@ office_combined_group:
 office_lights_group:
   name: Office Lights
   entities:
-    - light.office_tv_lights_level
-    - light.office_desk_lights_level
+    - light.zooz_unknown_type1f02_id1f02_level
+    - light.zooz_unknown_type1f02_id1f02_level_2
 
 office_media_group:
   name: Office Media
