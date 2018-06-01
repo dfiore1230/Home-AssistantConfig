@@ -60,8 +60,8 @@ alexa:
     expose_by_default: false
 tts:
   - platform: google
-#zwave:
-#  usb_path: /dev/ttyACM1
+zwave:
+  usb_path: /dev/ttyACM1
 
 ###############################################
 #
