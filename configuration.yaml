@@ -58,6 +58,9 @@ cloud:
 alexa:
   filter:
     expose_by_default: false
+  include_domains:
+    - lights
+    - switches
 tts:
   - platform: google
 zwave:
