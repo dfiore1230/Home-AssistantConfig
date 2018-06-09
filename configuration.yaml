@@ -57,10 +57,15 @@ wink:
 cloud:
 alexa:
   filter:
-    expose_by_default: false
-  include_domains:
-    - lights
-    - switches
+    include_entities:
+    include_domains:
+    - media_player
+    exclude_entities:
+    exclude_domains:
+    - light
+    - group
+    - switch
+
 tts:
   - platform: google
 zwave:
