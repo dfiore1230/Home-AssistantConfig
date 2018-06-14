@@ -70,8 +70,6 @@ tts:
   - platform: google
 zwave:
   usb_path: /dev/ttyACM1
-sabnzbd:
-  api_key: '196710b4f483fe6e215c40d6c60a302b'
 
 ###############################################
 #
@@ -83,6 +81,7 @@ sabnzbd:
 shell_command: !include shell_scripts.yaml
 alarm_control_panel: !include alarm_com.yaml
 automation: !include automations.yaml
+sabnzbd: !include sabnzbd.yaml
 
 # Merge Includes List
 script: !include_dir_merge_list scripts
