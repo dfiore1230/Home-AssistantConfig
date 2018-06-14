@@ -1,0 +1,27 @@
+all_lights_group:
+  name: All Lights
+  view: yes
+  icon: mdi:lightbulb-outline
+  entities:
+    - group.first_floor_lights_group
+    - group.second_floor_lights_group
+    - group.third_floor_lights_group
+    - group.outside_lights_group
+
+first_floor_lights_group:
+  entities:
+    - switch.family_room_lamp
+
+second_floor_lights_group:
+  entities:
+    - switch.zwave.guest_bedroom_lights
+    - zwave.master_bedroom_wall_sconce
+
+third_floor_lights_group:
+  entities:
+    - zwave.zooz_unknown_type1f02_id1f02
+    - zwave.zooz_unknown_type1f02_id1f02_2
+
+outside_lights_group:
+  entities:
+    - zwave.zooz_unknown_typeb112_id261c
