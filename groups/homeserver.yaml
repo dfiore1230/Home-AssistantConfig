@@ -4,6 +4,7 @@
     icon: mdi:server
     entities:
       - group.ubuntu_server_group
+      - group.sabnzbd_group
 
   ubuntu_server_group:
     entities:
@@ -33,6 +34,9 @@
       - sensor.ubuntu_server_ups_manufacturer
       - sensor.ubuntu_server_ups_model
       - sensor.ubuntu_server_ups_nominal_real_power
+
+  sabnzbd_group:
+    entities:
       - sensor.sab_daily_total
       - sensor.sab_disk
       - sensor.sab_disk_free
