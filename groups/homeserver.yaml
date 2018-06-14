@@ -7,7 +7,6 @@
 
   ubuntu_server_group:
     entities:
-      - sensor.sab_status
       - sensor.external_ip
       - sensor.speedtest_download
       - sensor.speedtest_ping

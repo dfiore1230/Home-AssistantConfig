@@ -71,6 +71,7 @@ tts:
 zwave:
   usb_path: /dev/ttyACM1
 sabnzbd:
+  api_key: '196710b4f483fe6e215c40d6c60a302b'
 
 ###############################################
 #
