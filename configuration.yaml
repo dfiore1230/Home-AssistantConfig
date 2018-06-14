@@ -70,6 +70,7 @@ tts:
   - platform: google
 zwave:
   usb_path: /dev/ttyACM1
+sabnzbd:
 
 ###############################################
 #
