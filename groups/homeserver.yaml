@@ -5,7 +5,6 @@
     entities:
       - group.ubuntu_server_group
       - group.sabnzbd_group
-      - group.speedtest_group
       - group.battery_backup_group
 
   ubuntu_server_group:
@@ -49,10 +48,3 @@
       - sensor.sab_status
       - sensor.sab_total
       - sensor.sab_weekly_total
-
-  speedtest_group:
-    entities:
-      - sensor.external_ip
-      - sensor.speedtest_download
-      - sensor.speedtest_ping
-      - sensor.speedtest_upload
