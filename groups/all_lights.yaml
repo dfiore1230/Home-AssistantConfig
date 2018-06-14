@@ -14,14 +14,14 @@ first_floor_lights_group:
 
 second_floor_lights_group:
   entities:
-    - zwave.guest_bedroom_lights
-    - zwave.master_bedroom_wall_sconce
+    - light.guest_bedroom_lights_level
+    - light.level_2
 
 third_floor_lights_group:
   entities:
-    - zwave.zooz_unknown_type1f02_id1f02
-    - zwave.zooz_unknown_type1f02_id1f02_2
+    - light.zooz_unknown_type1f02_id1f02_level
+    - light.zooz_unknown_type1f02_id1f02_level_2
 
 outside_lights_group:
   entities:
-    - zwave.zooz_unknown_typeb112_id261c
+    - light.zooz_unknown_typeb112_id261c_level
