@@ -5,13 +5,10 @@
     entities:
       - group.ubuntu_server_group
       - group.sabnzbd_group
+      - group.speedtest_group
 
   ubuntu_server_group:
     entities:
-      - sensor.external_ip
-      - sensor.speedtest_download
-      - sensor.speedtest_ping
-      - sensor.speedtest_upload
       - sensor.disk_use_percent_
       - sensor.last_boot
       - sensor.load_15m
@@ -48,3 +45,10 @@
       - sensor.sab_status
       - sensor.sab_total
       - sensor.sab_weekly_total
+
+  speedtest_group:
+    entities:
+      - sensor.external_ip
+      - sensor.speedtest_download
+      - sensor.speedtest_ping
+      - sensor.speedtest_upload
