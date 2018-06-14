@@ -1,10 +1,9 @@
-  platform: sabnzbd
   name: SAB
   host: 172.16.42.180
   port: 8080
   api_key: '196710b4f483fe6e215c40d6c60a302b'
   ssl: false
-  monitored variables:
+  sensors:
     - current_status
     - speed
     - queue_size
