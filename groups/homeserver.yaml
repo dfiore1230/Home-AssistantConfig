@@ -6,6 +6,7 @@
       - group.ubuntu_server_group
       - group.sabnzbd_group
       - group.speedtest_group
+      - group.battery_backup_group
 
   ubuntu_server_group:
     entities:
@@ -23,6 +24,9 @@
       - sensor.network_out_p6p1
       - sensor.processor_use
       - sensor.since_last_boot
+
+  battery_backup_group:
+    entities:
       - sensor.ubuntu_server_ups_battery_charge
       - sensor.ubuntu_server_ups_battery_runtime
       - sensor.ubuntu_server_ups_input_voltage
