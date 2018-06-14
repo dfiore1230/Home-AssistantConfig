@@ -4,3 +4,4 @@
     icon: mdi:home
     entities:
       - group.home_alarm_group
+      - group.internet_speed_group
