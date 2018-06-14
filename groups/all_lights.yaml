@@ -14,7 +14,7 @@ first_floor_lights_group:
 
 second_floor_lights_group:
   entities:
-    - switch.zwave.guest_bedroom_lights
+    - zwave.guest_bedroom_lights
     - zwave.master_bedroom_wall_sconce
 
 third_floor_lights_group:
