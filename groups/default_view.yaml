@@ -1,4 +1,4 @@
-group:
+default_group:
   default_view:
     view: yes
     entities:
