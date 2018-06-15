@@ -7,3 +7,4 @@
       - group.second_floor_lights_group
       - group.third_floor_lights_group
       - group.outside_lights_group
+      - group.sabnzbd_group
