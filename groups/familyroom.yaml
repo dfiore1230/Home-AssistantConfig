@@ -7,9 +7,10 @@ familyroom_combined_group:
     - group.familyroom_media_group
 
 familyroom_lights_group:
+  name: Family Room Lights
   entities:
     - switch.family_room_lamp
 
 familyroom_media_group:
+  name: Family Room Media
   entities:
-    

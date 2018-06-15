@@ -12,7 +12,7 @@ guestbedroom_lights_group:
     - light.guest_bedroom_lights_level
 
 guestbedroom_media_group:
-  name: Guest Bedroom
+  name: Guest Bedroom Media
   entities:
       - media_player.samsung_tv_remote
       - media_player.guest_room

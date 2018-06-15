@@ -7,10 +7,12 @@ masterbedroom_combined_group:
     - group.masterbedroom_lights_group
 
 masterbedroom_media_group:
+  name: Master Bedroom Media
   entities:
     # Add in new ROKU TV HERE
     #- media_player.master_bedroom
 
 masterbedroom_lights_group:
+  name: Master Bedroom Lights
   entities:
     - light.level_2

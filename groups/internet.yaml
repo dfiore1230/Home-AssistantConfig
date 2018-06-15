@@ -6,6 +6,7 @@ internet:
     - group.internet_speed_group
 
 internet_speed_group:
+  name: Network Speed
   entities:
     - sensor.external_ip
     - sensor.speedtest_download

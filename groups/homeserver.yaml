@@ -8,6 +8,7 @@
       - group.battery_backup_group
 
   ubuntu_server_group:
+    name: Server Stats
     entities:
       - sensor.disk_use_percent_
       - sensor.last_boot
@@ -25,6 +26,7 @@
       - sensor.since_last_boot
 
   battery_backup_group:
+    name: Server Battery Stats
     entities:
       - sensor.ubuntu_server_ups_battery_charge
       - sensor.ubuntu_server_ups_battery_runtime
@@ -36,6 +38,7 @@
       - sensor.ubuntu_server_ups_nominal_real_power
 
   sabnzbd_group:
+    name: Sabnzbd Stats
     entities:
       - sensor.sab_daily_total
       - sensor.sab_disk
