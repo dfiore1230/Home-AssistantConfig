@@ -69,7 +69,7 @@ alexa:
 tts:
   - platform: google
 zwave:
-  usb_path: /dev/zwave
+  usb_path: /dev/ttyACM0
 
 ###############################################
 #
