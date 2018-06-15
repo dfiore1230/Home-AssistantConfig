@@ -9,19 +9,23 @@ all_lights_group:
     - group.outside_lights_group
 
 first_floor_lights_group:
+  name: First Floor Lights
   entities:
     - switch.family_room_lamp
 
 second_floor_lights_group:
+  name: Second Floor Lights
   entities:
     - light.guest_bedroom_lights_level
     - light.level_2
 
 third_floor_lights_group:
+  name: Third Floor Lights
   entities:
     - light.zooz_unknown_type1f02_id1f02_level
     - light.zooz_unknown_type1f02_id1f02_level_2
 
 outside_lights_group:
+  name: Outside Lights
   entities:
     - light.zooz_unknown_typeb112_id261c_level
