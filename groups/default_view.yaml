@@ -1,5 +1,9 @@
   default_view:
+    name: Dashboard
     view: yes
     entities:
-      - group.all_lights_group
       - group.internet_speed_group
+      - group.first_floor_lights_group
+      - group.second_floor_lights_group
+      - group.third_floor_lights_group
+      - group.outside_lights_group
