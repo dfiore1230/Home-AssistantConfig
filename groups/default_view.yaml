@@ -1,0 +1,5 @@
+  default_view:
+    view: yes
+    entities:
+      - group.all_lights_group
+      - group.internet_speed_group
