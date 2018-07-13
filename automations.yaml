@@ -2,9 +2,9 @@
   alias: Turn On Master Bedroom Lights
   trigger:
   - entity_id: light.level
-    from: 'on'
+    from: 'off'
     platform: state
-    to: 'off'
+    to: 'on'
   action:
   - data:
       entity_id: light.level_2
@@ -14,9 +14,9 @@
   alias: Turn Off Master Bedroom Lights
   trigger:
   - entity_id: light.level
-    from: 'off'
+    from: 'on'
     platform: state
-    to: 'on'
+    to: 'off'
   action:
   - data:
       entity_id: light.level_2
