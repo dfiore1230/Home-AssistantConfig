@@ -50,3 +50,27 @@ zwave.master_bedroom_wall_sconce:
   name:
   platform: zwave
   unique_id: node-6
+zwave.zooz_unknown_type1f02_id1f02:
+  name: Office Desk Lights
+  platform: zwave
+  unique_id: node-7
+zwave.zooz_unknown_type1f02_id1f02_2:
+  name: Office TV Lights
+  platform: zwave
+  unique_id: node-8
+light.zooz_unknown_type1f02_id1f02_level:
+  name: Office TV Lights
+  platform: zwave
+  unique_id: 7-72057594160185345
+light.zooz_unknown_type1f02_id1f02_level_2:
+  name: Office Desk Lights
+  platform: zwave
+  unique_id: 8-72057594176962561
+zwave.zooz_unknown_typeb112_id261c:
+  name: Back Yard Lights
+  platform: zwave
+  unique_id: node-9
+light.zooz_unknown_typeb112_id261c_level:
+  name: Back Yard Lights
+  platform: zwave
+  unique_id: 9-72057594193739777
