@@ -1,0 +1,3 @@
+  username: !secret dyson_user
+  password: !secret dyson_pass
+  language: US
