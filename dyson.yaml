@@ -1,3 +1,6 @@
   username: !secret dyson_user
   password: !secret dyson_pass
   language: US
+  devices:
+    - device_id: NM7-US-HGA8103A
+      device_ip: 172.16.42.139
