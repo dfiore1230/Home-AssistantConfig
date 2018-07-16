@@ -18,6 +18,6 @@ masterbedroom_lights_group:
     - light.level_2
 
 masterbedroom_fans_group:
-  name: Master Bedroom Fan
+  name: Master Bedroom Fan Group
   entities:
     - fan.unnamed_device
