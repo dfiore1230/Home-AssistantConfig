@@ -7,6 +7,8 @@ all_lights_group:
     - group.second_floor_lights_group
     - group.third_floor_lights_group
     - group.outside_lights_group
+    - group.abbysbedroom_lights_group
+
 
 first_floor_lights_group:
   name: First Floor Lights
@@ -18,6 +20,8 @@ second_floor_lights_group:
   entities:
     - light.guest_bedroom_lights_level
     - light.level_2
+    - light.abby_bed
+    - light.abby_main
 
 third_floor_lights_group:
   name: Third Floor Lights

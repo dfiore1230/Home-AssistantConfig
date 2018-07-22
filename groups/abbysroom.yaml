@@ -1,0 +1,12 @@
+abbysbedroom_combined_group:
+  name: Combined Abbys Bedroom
+  view: yes
+  icon: mdi:heart
+  entities:
+    - group.abbysbedroom_lights_group
+
+abbysbedroom_lights_group:
+  name: Abbys Bedroom Lights
+  entities:
+    - light.abby_bed
+    - light.abby_main
