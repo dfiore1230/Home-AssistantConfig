@@ -8,5 +8,5 @@ abbysbedroom_combined_group:
 abbysbedroom_lights_group:
   name: Abbys Bedroom Lights
   entities:
-    - light.abby_bed
-    - light.abby_main
+    - light.zooz_unknown_typeb112_id261c_level_2
+    - light.zooz_unknown_typeb112_id261c_level_3
