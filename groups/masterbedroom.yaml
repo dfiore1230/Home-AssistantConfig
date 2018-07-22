@@ -20,4 +20,4 @@ masterbedroom_lights_group:
 masterbedroom_fans_group:
   name: Master Bedroom Fan Group
   entities:
-    - fan.unnamed_device
+    - fan.dyson_pure_cool_linktm
