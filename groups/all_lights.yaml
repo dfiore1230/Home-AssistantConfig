@@ -20,8 +20,8 @@ second_floor_lights_group:
   entities:
     - light.guest_bedroom_lights_level
     - light.level_2
-    - light.abby_bed
-    - light.abby_main
+    - light.zooz_unknown_typeb112_id261c_level_2
+    - light.zooz_unknown_typeb112_id261c_level_3
 
 third_floor_lights_group:
   name: Third Floor Lights
