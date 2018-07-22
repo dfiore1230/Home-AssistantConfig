@@ -5,6 +5,7 @@ masterbedroom_combined_group:
   entities:
     - group.masterbedroom_media_group
     - group.masterbedroom_lights_group
+    - group.masterbedroom_fans_group
 
 masterbedroom_media_group:
   name: Master Bedroom Media
