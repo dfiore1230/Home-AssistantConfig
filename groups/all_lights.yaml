@@ -7,7 +7,6 @@ all_lights_group:
     - group.second_floor_lights_group
     - group.third_floor_lights_group
     - group.outside_lights_group
-    - group.abbysbedroom_lights_group
 
 
 first_floor_lights_group:
