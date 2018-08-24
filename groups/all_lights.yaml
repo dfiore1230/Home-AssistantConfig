@@ -32,4 +32,4 @@ third_floor_lights_group:
 outside_lights_group:
   name: Outside Lights
   entities:
-    - light.zooz_unknown_typeb112_id261c_level
+    - light.zooz_unknown_typeb112_id261c_level_6
